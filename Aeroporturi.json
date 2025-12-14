@@ -1,0 +1,5330 @@
+[
+  {
+    "location": "Aalborg",
+    "iata_code": "AAL"
+  },
+  {
+    "location": "Aarhus",
+    "iata_code": "AAR"
+  },
+  {
+    "location": "Abadan",
+    "iata_code": "ABD"
+  },
+  {
+    "location": "Abakan",
+    "iata_code": "ABA"
+  },
+  {
+    "location": "Aberdeen",
+    "iata_code": "ABR"
+  },
+  {
+    "location": "Aberdeen",
+    "iata_code": "ABZ"
+  },
+  {
+    "location": "Abha",
+    "iata_code": "AHB"
+  },
+  {
+    "location": "Abidjan",
+    "iata_code": "ABJ"
+  },
+  {
+    "location": "Abilene",
+    "iata_code": "ABI"
+  },
+  {
+    "location": "Abu Dhabi",
+    "iata_code": "AUH"
+  },
+  {
+    "location": "Abuja",
+    "iata_code": "ABV"
+  },
+  {
+    "location": "Acapulco",
+    "iata_code": "ACA"
+  },
+  {
+    "location": "Acarigua",
+    "iata_code": "AGV"
+  },
+  {
+    "location": "Accra",
+    "iata_code": "ACC"
+  },
+  {
+    "location": "Adak Island",
+    "iata_code": "ADK"
+  },
+  {
+    "location": "Adana",
+    "iata_code": "ADA"
+  },
+  {
+    "location": "Addis Ababa",
+    "iata_code": "ADD"
+  },
+  {
+    "location": "Adelaide",
+    "iata_code": "ADL"
+  },
+  {
+    "location": "Aden",
+    "iata_code": "ADE"
+  },
+  {
+    "location": "Adler",
+    "iata_code": "AER"
+  },
+  {
+    "location": "Agadir",
+    "iata_code": "AGA"
+  },
+  {
+    "location": "Aguascaliente",
+    "iata_code": "AGU"
+  },
+  {
+    "location": "Ahmedabad",
+    "iata_code": "AMD"
+  },
+  {
+    "location": "Ajaccio",
+    "iata_code": "AJA"
+  },
+  {
+    "location": "Akiachak",
+    "iata_code": "KKI"
+  },
+  {
+    "location": "Akiak",
+    "iata_code": "AKI"
+  },
+  {
+    "location": "Akita",
+    "iata_code": "AXT"
+  },
+  {
+    "location": "Akron/Canton",
+    "iata_code": "CAK"
+  },
+  {
+    "location": "Al-Baha",
+    "iata_code": "ABT"
+  },
+  {
+    "location": "Albany",
+    "iata_code": "ABY"
+  },
+  {
+    "location": "Albany",
+    "iata_code": "ALB"
+  },
+  {
+    "location": "Albert Bay",
+    "iata_code": "YAL"
+  },
+  {
+    "location": "Albuquerque",
+    "iata_code": "ABQ"
+  },
+  {
+    "location": "Aleandroupolis",
+    "iata_code": "AXD"
+  },
+  {
+    "location": "Aleppo",
+    "iata_code": "ALP"
+  },
+  {
+    "location": "Alexandria",
+    "iata_code": "ESF"
+  },
+  {
+    "location": "Algiers",
+    "iata_code": "ALG"
+  },
+  {
+    "location": "Alicante",
+    "iata_code": "ALC"
+  },
+  {
+    "location": "Allakaket",
+    "iata_code": "AET"
+  },
+  {
+    "location": "Allentown",
+    "iata_code": "ABE"
+  },
+  {
+    "location": "Alma Ata",
+    "iata_code": "ALA"
+  },
+  {
+    "location": "Alor Setar",
+    "iata_code": "AOR"
+  },
+  {
+    "location": "Altoona",
+    "iata_code": "AOO"
+  },
+  {
+    "location": "Amarillo",
+    "iata_code": "AMA"
+  },
+  {
+    "location": "Amchitka",
+    "iata_code": "AHT"
+  },
+  {
+    "location": "Amman",
+    "iata_code": "AMM"
+  },
+  {
+    "location": "Amsterdam",
+    "iata_code": "AMS"
+  },
+  {
+    "location": "Amritsar",
+    "iata_code": "ATQ"
+  },
+  {
+    "location": "Ancona",
+    "iata_code": "AOI"
+  },
+  {
+    "location": "Andahuaylas",
+    "iata_code": "ANS"
+  },
+  {
+    "location": "Anguilla",
+    "iata_code": "AXA"
+  },
+  {
+    "location": "Aniak",
+    "iata_code": "ANI"
+  },
+  {
+    "location": "Ankang",
+    "iata_code": "AKA"
+  },
+  {
+    "location": "Ankara",
+    "iata_code": "ANK"
+  },
+  {
+    "location": "Ankara, Esenboga",
+    "iata_code": "ESB"
+  },
+  {
+    "location": "Annency",
+    "iata_code": "NCY"
+  },
+  {
+    "location": "Antananarivo",
+    "iata_code": "TNR"
+  },
+  {
+    "location": "Antigua",
+    "iata_code": "ANU"
+  },
+  {
+    "location": "Antofagasta",
+    "iata_code": "ANF"
+  },
+  {
+    "location": "Antalya",
+    "iata_code": "AYT"
+  },
+  {
+    "location": "Antwerp",
+    "iata_code": "ANR"
+  },
+  {
+    "location": "Anvik",
+    "iata_code": "ANV"
+  },
+  {
+    "location": "Aomori",
+    "iata_code": "AOJ"
+  },
+  {
+    "location": "Apia",
+    "iata_code": "APW"
+  },
+  {
+    "location": "Appleton",
+    "iata_code": "ATW"
+  },
+  {
+    "location": "Aqaba",
+    "iata_code": "AQJ"
+  },
+  {
+    "location": "Arecibo",
+    "iata_code": "ARE"
+  },
+  {
+    "location": "Arequipa",
+    "iata_code": "AQP"
+  },
+  {
+    "location": "Arica",
+    "iata_code": "ARI"
+  },
+  {
+    "location": "Arcata, Eureka",
+    "iata_code": "ACV"
+  },
+  {
+    "location": "Arctic Village",
+    "iata_code": "ARC"
+  },
+  {
+    "location": "Aruba",
+    "iata_code": "AUA"
+  },
+  {
+    "location": "Ascension",
+    "iata_code": "ASC"
+  },
+  {
+    "location": "Asheville",
+    "iata_code": "AVL"
+  },
+  {
+    "location": "Ashikawa",
+    "iata_code": "AKJ"
+  },
+  {
+    "location": "Ashland, Huntington",
+    "iata_code": "HTS"
+  },
+  {
+    "location": "Asmara",
+    "iata_code": "ASM"
+  },
+  {
+    "location": "Asuncion",
+    "iata_code": "ASU"
+  },
+  {
+    "location": "Aswan",
+    "iata_code": "ASW"
+  },
+  {
+    "location": "Athens",
+    "iata_code": "ATH"
+  },
+  {
+    "location": "Atlanta",
+    "iata_code": "ATL"
+  },
+  {
+    "location": "Atlanta, Beaver Ruin",
+    "iata_code": "JAO"
+  },
+  {
+    "location": "Atlanta, Perimeter",
+    "iata_code": "JAJ"
+  },
+  {
+    "location": "Atlantic City",
+    "iata_code": "AIY"
+  },
+  {
+    "location": "Atmautluak",
+    "iata_code": "ATT"
+  },
+  {
+    "location": "Auckland",
+    "iata_code": "AKL"
+  },
+  {
+    "location": "Augusta",
+    "iata_code": "AGS"
+  },
+  {
+    "location": "Austin",
+    "iata_code": "AUS"
+  },
+  {
+    "location": "Asturias",
+    "iata_code": "OVD"
+  },
+  {
+    "location": "Ayacucho",
+    "iata_code": "AYP"
+  },
+  {
+    "location": "Baghdad, Al Muthana",
+    "iata_code": "BGW"
+  },
+  {
+    "location": "Bahrain",
+    "iata_code": "BAH"
+  },
+  {
+    "location": "Bakersfield",
+    "iata_code": "BFL"
+  },
+  {
+    "location": "Balikpapan",
+    "iata_code": "BPN"
+  },
+  {
+    "location": "Bali Island, Denpasar",
+    "iata_code": "DPS"
+  },
+  {
+    "location": "Balmaceda",
+    "iata_code": "BBA"
+  },
+  {
+    "location": "Baltimore",
+    "iata_code": "BWI"
+  },
+  {
+    "location": "Baltimore, Gl. Martin",
+    "iata_code": "MTN"
+  },
+  {
+    "location": "Bamako",
+    "iata_code": "BKO"
+  },
+  {
+    "location": "Bandar Abbas",
+    "iata_code": "BND"
+  },
+  {
+    "location": "Bandar Seri Begawan",
+    "iata_code": "BWN"
+  },
+  {
+    "location": "Bangalore",
+    "iata_code": "BLR"
+  },
+  {
+    "location": "Bangkok",
+    "iata_code": "BKK"
+  },
+  {
+    "location": "Bangor",
+    "iata_code": "BGR"
+  },
+  {
+    "location": "Bangui",
+    "iata_code": "BGF"
+  },
+  {
+    "location": "Banjul",
+    "iata_code": "BJL"
+  },
+  {
+    "location": "Baotou",
+    "iata_code": "BAV"
+  },
+  {
+    "location": "Barbados",
+    "iata_code": "BGI"
+  },
+  {
+    "location": "Barcelona",
+    "iata_code": "BCN"
+  },
+  {
+    "location": "Barcelona",
+    "iata_code": "BLA"
+  },
+  {
+    "location": "Bardufoss",
+    "iata_code": "BDU"
+  },
+  {
+    "location": "Bari",
+    "iata_code": "BRI"
+  },
+  {
+    "location": "Barinas",
+    "iata_code": "BNS"
+  },
+  {
+    "location": "Barquisimeto",
+    "iata_code": "BRM"
+  },
+  {
+    "location": "Barranquilla",
+    "iata_code": "BAQ"
+  },
+  {
+    "location": "Barrow",
+    "iata_code": "BRW"
+  },
+  {
+    "location": "Basle",
+    "iata_code": "BSL"
+  },
+  {
+    "location": "Basra",
+    "iata_code": "BSR"
+  },
+  {
+    "location": "Bastia",
+    "iata_code": "BIA"
+  },
+  {
+    "location": "Bastia, Biak",
+    "iata_code": "BIK"
+  },
+  {
+    "location": "Baton Rouge",
+    "iata_code": "BTR"
+  },
+  {
+    "location": "Battle Creek",
+    "iata_code": "BTL"
+  },
+  {
+    "location": "Bay City/Saginaw",
+    "iata_code": "MBS"
+  },
+  {
+    "location": "Beaumont",
+    "iata_code": "BPT"
+  },
+  {
+    "location": "Beaver",
+    "iata_code": "WBQ"
+  },
+  {
+    "location": "Bedford",
+    "iata_code": "EWB"
+  },
+  {
+    "location": "Beef Island, Tortola",
+    "iata_code": "EIS"
+  },
+  {
+    "location": "Beijing",
+    "iata_code": "BJS"
+  },
+  {
+    "location": "Beijing",
+    "iata_code": "PEK"
+  },
+  {
+    "location": "Beijing Airport",
+    "iata_code": "NAY"
+  },
+  {
+    "location": "Beira",
+    "iata_code": "BEW"
+  },
+  {
+    "location": "Beirut",
+    "iata_code": "BEY"
+  },
+  {
+    "location": "Belem",
+    "iata_code": "BEL"
+  },
+  {
+    "location": "Belfast",
+    "iata_code": "BFS"
+  },
+  {
+    "location": "Belfast, Belfast City",
+    "iata_code": "BHD"
+  },
+  {
+    "location": "Belgrade",
+    "iata_code": "BEG"
+  },
+  {
+    "location": "Belize",
+    "iata_code": "BZE"
+  },
+  {
+    "location": "Belize, Municipal",
+    "iata_code": "TZA"
+  },
+  {
+    "location": "Bellingham",
+    "iata_code": "BLI"
+  },
+  {
+    "location": "Belo Horizonte",
+    "iata_code": "BHZ"
+  },
+  {
+    "location": "Benghazi",
+    "iata_code": "BEN"
+  },
+  {
+    "location": "Bergen",
+    "iata_code": "BGO"
+  },
+  {
+    "location": "Berlin",
+    "iata_code": "BER"
+  },
+  {
+    "location": "Berlin, Schonefeld",
+    "iata_code": "SXF"
+  },
+  {
+    "location": "Berlin, Tegel",
+    "iata_code": "TXL"
+  },
+  {
+    "location": "Berlin, Tempelhof",
+    "iata_code": "THF"
+  },
+  {
+    "location": "Bermuda",
+    "iata_code": "BDA"
+  },
+  {
+    "location": "Bern",
+    "iata_code": "BRN"
+  },
+  {
+    "location": "Bethel",
+    "iata_code": "BET"
+  },
+  {
+    "location": "Bettles",
+    "iata_code": "BTT"
+  },
+  {
+    "location": "Biak",
+    "iata_code": "BIK"
+  },
+  {
+    "location": "Biarritz",
+    "iata_code": "BIQ"
+  },
+  {
+    "location": "Bilbao",
+    "iata_code": "BIO"
+  },
+  {
+    "location": "Billings",
+    "iata_code": "BIL"
+  },
+  {
+    "location": "Billund",
+    "iata_code": "BLL"
+  },
+  {
+    "location": "Binghamton",
+    "iata_code": "BGM"
+  },
+  {
+    "location": "Bintulu",
+    "iata_code": "BTU"
+  },
+  {
+    "location": "Birmingham",
+    "iata_code": "BHM"
+  },
+  {
+    "location": "Birmingham",
+    "iata_code": "BHX"
+  },
+  {
+    "location": "Bissau",
+    "iata_code": "BXO"
+  },
+  {
+    "location": "Blantyre",
+    "iata_code": "BLZ"
+  },
+  {
+    "location": "Bloemfontein",
+    "iata_code": "BFN"
+  },
+  {
+    "location": "Bloomington",
+    "iata_code": "BMI"
+  },
+  {
+    "location": "Boa Vista",
+    "iata_code": "BVB"
+  },
+  {
+    "location": "Bodo",
+    "iata_code": "BOO"
+  },
+  {
+    "location": "Bogota",
+    "iata_code": "BOG"
+  },
+  {
+    "location": "Boise",
+    "iata_code": "BOI"
+  },
+  {
+    "location": "Bologna",
+    "iata_code": "BLQ"
+  },
+  {
+    "location": "Bombay",
+    "iata_code": "BOM"
+  },
+  {
+    "location": "Bonaire",
+    "iata_code": "BON"
+  },
+  {
+    "location": "Bordeaux",
+    "iata_code": "BOD"
+  },
+  {
+    "location": "Boston",
+    "iata_code": "BOS"
+  },
+  {
+    "location": "Boulder",
+    "iata_code": "WBU"
+  },
+  {
+    "location": "Bourlamaq/Val D'or",
+    "iata_code": "YVO"
+  },
+  {
+    "location": "Bournemouth",
+    "iata_code": "BOH"
+  },
+  {
+    "location": "Bozeman",
+    "iata_code": "BZN"
+  },
+  {
+    "location": "Bradley",
+    "iata_code": "BDL"
+  },
+  {
+    "location": "Brainerd",
+    "iata_code": "BRD"
+  },
+  {
+    "location": "Brasilia",
+    "iata_code": "BSB"
+  },
+  {
+    "location": "Bratislava",
+    "iata_code": "BTS"
+  },
+  {
+    "location": "Brazzaville",
+    "iata_code": "BZV"
+  },
+  {
+    "location": "Bremen",
+    "iata_code": "BRE"
+  },
+  {
+    "location": "Brest",
+    "iata_code": "BES"
+  },
+  {
+    "location": "Bridgeport",
+    "iata_code": "BDR"
+  },
+  {
+    "location": "Brisbane",
+    "iata_code": "BNE"
+  },
+  {
+    "location": "Bristol",
+    "iata_code": "BRS"
+  },
+  {
+    "location": "Brownsville",
+    "iata_code": "BRO"
+  },
+  {
+    "location": "Brussels",
+    "iata_code": "BRU"
+  },
+  {
+    "location": "Bucaramanga",
+    "iata_code": "BGA"
+  },
+  {
+    "location": "Bucharest",
+    "iata_code": "BUH"
+  },
+  {
+    "location": "Bucharest, Baneasa",
+    "iata_code": "BBU"
+  },
+  {
+    "location": "Bucharest, Otopeni",
+    "iata_code": "OTP"
+  },
+  {
+    "location": "Budapest",
+    "iata_code": "BUD"
+  },
+  {
+    "location": "Buenos Aires",
+    "iata_code": "BUE"
+  },
+  {
+    "location": "Buenos Aires, Ministro Pistarini",
+    "iata_code": "EZE"
+  },
+  {
+    "location": "Bujumbura",
+    "iata_code": "BJM"
+  },
+  {
+    "location": "Bulawayo",
+    "iata_code": "BUQ"
+  },
+  {
+    "location": "Bundaberg, Blanding",
+    "iata_code": "BDG"
+  },
+  {
+    "location": "Burbank",
+    "iata_code": "BUR"
+  },
+  {
+    "location": "Burlington",
+    "iata_code": "BTV"
+  },
+  {
+    "location": "Bushehr",
+    "iata_code": "BUZ"
+  },
+  {
+    "location": "Butte",
+    "iata_code": "BTM"
+  },
+  {
+    "location": "Cairns",
+    "iata_code": "CNS"
+  },
+  {
+    "location": "Cairo",
+    "iata_code": "CAI"
+  },
+  {
+    "location": "Cajamarca",
+    "iata_code": "CJA"
+  },
+  {
+    "location": "Calama",
+    "iata_code": "CJC"
+  },
+  {
+    "location": "Calcutta",
+    "iata_code": "CCU"
+  },
+  {
+    "location": "Calgary",
+    "iata_code": "YYC"
+  },
+  {
+    "location": "Cali",
+    "iata_code": "CLO"
+  },
+  {
+    "location": "Calicut",
+    "iata_code": "CLJ"
+  },
+  {
+    "location": "Calvi",
+    "iata_code": "CLY"
+  },
+  {
+    "location": "Cambridge Bay",
+    "iata_code": "YCB"
+  },
+  {
+    "location": "Campo Grande",
+    "iata_code": "CGR"
+  },
+  {
+    "location": "Canaina",
+    "iata_code": "CAJ"
+  },
+  {
+    "location": "Cancun",
+    "iata_code": "CUN"
+  },
+  {
+    "location": "Cape Girardeau",
+    "iata_code": "CGI"
+  },
+  {
+    "location": "Cape Town",
+    "iata_code": "CPT"
+  },
+  {
+    "location": "Caracas",
+    "iata_code": "CCS"
+  },
+  {
+    "location": "Cardiff",
+    "iata_code": "CWL"
+  },
+  {
+    "location": "Carlsbad",
+    "iata_code": "CNM"
+  },
+  {
+    "location": "Carupano",
+    "iata_code": "CUP"
+  },
+  {
+    "location": "Cartagena",
+    "iata_code": "CTG"
+  },
+  {
+    "location": "Casablanca",
+    "iata_code": "AAA"
+  },
+  {
+    "location": "Casablanca, Anfa",
+    "iata_code": "CAS"
+  },
+  {
+    "location": "Casablanca, Mohamed V",
+    "iata_code": "CMN"
+  },
+  {
+    "location": "Casper",
+    "iata_code": "CPR"
+  },
+  {
+    "location": "Catania",
+    "iata_code": "CTA"
+  },
+  {
+    "location": "Cayenne",
+    "iata_code": "CAY"
+  },
+  {
+    "location": "Cebu",
+    "iata_code": "CEB"
+  },
+  {
+    "location": "Cedar City",
+    "iata_code": "CDC"
+  },
+  {
+    "location": "Chetumal",
+    "iata_code": "CTM"
+  },
+  {
+    "location": "Chefornak",
+    "iata_code": "CYF"
+  },
+  {
+    "location": "Cheju",
+    "iata_code": "CJU"
+  },
+  {
+    "location": "Chengdu",
+    "iata_code": "CTU"
+  },
+  {
+    "location": "Chalkyits",
+    "iata_code": "CIK"
+  },
+  {
+    "location": "Champaign",
+    "iata_code": "CMI"
+  },
+  {
+    "location": "Changchun",
+    "iata_code": "CGQ"
+  },
+  {
+    "location": "Changsha",
+    "iata_code": "CSX"
+  },
+  {
+    "location": "Charleston",
+    "iata_code": "CHS"
+  },
+  {
+    "location": "Charlotte",
+    "iata_code": "CLT"
+  },
+  {
+    "location": "Chattanooga",
+    "iata_code": "CHA"
+  },
+  {
+    "location": "Chachapoyas",
+    "iata_code": "CHH"
+  },
+  {
+    "location": "Chevak",
+    "iata_code": "VAK"
+  },
+  {
+    "location": "Chiang Mai",
+    "iata_code": "CNX"
+  },
+  {
+    "location": "Chicago",
+    "iata_code": "CHI"
+  },
+  {
+    "location": "Chicago, Midway",
+    "iata_code": "MDW"
+  },
+  {
+    "location": "Chicago, O'Hare",
+    "iata_code": "ORD"
+  },
+  {
+    "location": "Chichenitza",
+    "iata_code": "CZA"
+  },
+  {
+    "location": "Chiclayo",
+    "iata_code": "CIX"
+  },
+  {
+    "location": "Chico",
+    "iata_code": "CIC"
+  },
+  {
+    "location": "Chignik",
+    "iata_code": "KCL"
+  },
+  {
+    "location": "Chihuahua",
+    "iata_code": "CUU"
+  },
+  {
+    "location": "Chisholm",
+    "iata_code": "HIB"
+  },
+  {
+    "location": "Chittagong",
+    "iata_code": "CGP"
+  },
+  {
+    "location": "Chongqing",
+    "iata_code": "CKG"
+  },
+  {
+    "location": "Christchurch",
+    "iata_code": "CHC"
+  },
+  {
+    "location": "Chuathbaluk",
+    "iata_code": "CHU"
+  },
+  {
+    "location": "Cincinnati",
+    "iata_code": "CVG"
+  },
+  {
+    "location": "Ciudad Del Carmen",
+    "iata_code": "CME"
+  },
+  {
+    "location": "City",
+    "iata_code": "CID"
+  },
+  {
+    "location": "Cleveland",
+    "iata_code": "CLE"
+  },
+  {
+    "location": "Cochabamba",
+    "iata_code": "CBB"
+  },
+  {
+    "location": "Cochin",
+    "iata_code": "COK"
+  },
+  {
+    "location": "Coeur D'Alene",
+    "iata_code": "COE"
+  },
+  {
+    "location": "Cold Bay",
+    "iata_code": "CDB"
+  },
+  {
+    "location": "Colima",
+    "iata_code": "CLQ"
+  },
+  {
+    "location": "College Station",
+    "iata_code": "CLL"
+  },
+  {
+    "location": "Cologne",
+    "iata_code": "CGN"
+  },
+  {
+    "location": "Colombo",
+    "iata_code": "CMB"
+  },
+  {
+    "location": "Colorado Springs",
+    "iata_code": "COS"
+  },
+  {
+    "location": "Columbia",
+    "iata_code": "CAE"
+  },
+  {
+    "location": "Columbia",
+    "iata_code": "COU"
+  },
+  {
+    "location": "Columbus",
+    "iata_code": "CMH"
+  },
+  {
+    "location": "Columbus",
+    "iata_code": "CSG"
+  },
+  {
+    "location": "Columbus",
+    "iata_code": "UBS"
+  },
+  {
+    "location": "Conakry",
+    "iata_code": "CKY"
+  },
+  {
+    "location": "Concepcion",
+    "iata_code": "CCP"
+  },
+  {
+    "location": "Copenhagen",
+    "iata_code": "CPH"
+  },
+  {
+    "location": "Copiapo",
+    "iata_code": "CPO"
+  },
+  {
+    "location": "Cordova",
+    "iata_code": "CDV"
+  },
+  {
+    "location": "Cork",
+    "iata_code": "ORK"
+  },
+  {
+    "location": "Corning, Elmira",
+    "iata_code": "ELM"
+  },
+  {
+    "location": "Coro",
+    "iata_code": "CZE"
+  },
+  {
+    "location": "Corpus Christie",
+    "iata_code": "CRP"
+  },
+  {
+    "location": "Corpus Christie, Cabaniss Field",
+    "iata_code": "NGW"
+  },
+  {
+    "location": "Corpus Christie, Cuddihy Field",
+    "iata_code": "CUX"
+  },
+  {
+    "location": "Cotonou",
+    "iata_code": "COO"
+  },
+  {
+    "location": "Coyhaique",
+    "iata_code": "GXQ"
+  },
+  {
+    "location": "Cozumel",
+    "iata_code": "CZM"
+  },
+  {
+    "location": "Crooked Creek",
+    "iata_code": "CKD"
+  },
+  {
+    "location": "Cruzeiro Do Sul",
+    "iata_code": "CZS"
+  },
+  {
+    "location": "Cuenca",
+    "iata_code": "CUE"
+  },
+  {
+    "location": "Cuiaba",
+    "iata_code": "CGB"
+  },
+  {
+    "location": "Culebra",
+    "iata_code": "CPX"
+  },
+  {
+    "location": "Culiacan",
+    "iata_code": "CUL"
+  },
+  {
+    "location": "Cumana",
+    "iata_code": "CUM"
+  },
+  {
+    "location": "Curacao",
+    "iata_code": "CUR"
+  },
+  {
+    "location": "Curitiba",
+    "iata_code": "CWB"
+  },
+  {
+    "location": "Cusco",
+    "iata_code": "CUZ"
+  },
+  {
+    "location": "Dakar",
+    "iata_code": "DKR"
+  },
+  {
+    "location": "Dalam",
+    "iata_code": "DLM"
+  },
+  {
+    "location": "Dalian",
+    "iata_code": "DLC"
+  },
+  {
+    "location": "Dallas/Ft. Worth",
+    "iata_code": "DFW"
+  },
+  {
+    "location": "Dallas, Love Field",
+    "iata_code": "DAL"
+  },
+  {
+    "location": "Damascus",
+    "iata_code": "DAM"
+  },
+  {
+    "location": "Danville",
+    "iata_code": "DNV"
+  },
+  {
+    "location": "Dar Es Salaam",
+    "iata_code": "DAR"
+  },
+  {
+    "location": "Darwin",
+    "iata_code": "DRW"
+  },
+  {
+    "location": "Davao",
+    "iata_code": "DVO"
+  },
+  {
+    "location": "Dayton",
+    "iata_code": "DAY"
+  },
+  {
+    "location": "Daytona Beach",
+    "iata_code": "DAB"
+  },
+  {
+    "location": "Deadhorse",
+    "iata_code": "SCC"
+  },
+  {
+    "location": "Decatur",
+    "iata_code": "DEC"
+  },
+  {
+    "location": "Deer Lake",
+    "iata_code": "YDF"
+  },
+  {
+    "location": "Delhi",
+    "iata_code": "DEL"
+  },
+  {
+    "location": "Delta",
+    "iata_code": "DTA"
+  },
+  {
+    "location": "Denver",
+    "iata_code": "DEN"
+  },
+  {
+    "location": "Des Moines",
+    "iata_code": "DSM"
+  },
+  {
+    "location": "Detroit",
+    "iata_code": "DTT"
+  },
+  {
+    "location": "Detroit",
+    "iata_code": "DTW"
+  },
+  {
+    "location": "Detroit City",
+    "iata_code": "DET"
+  },
+  {
+    "location": "Detroit, Willow Run",
+    "iata_code": "YIP"
+  },
+  {
+    "location": "Dhahran",
+    "iata_code": "DHA"
+  },
+  {
+    "location": "Dhaka",
+    "iata_code": "DAC"
+  },
+  {
+    "location": "Dillingham",
+    "iata_code": "DLG"
+  },
+  {
+    "location": "Djerba",
+    "iata_code": "DJE"
+  },
+  {
+    "location": "Djibouti",
+    "iata_code": "JIB"
+  },
+  {
+    "location": "Doha",
+    "iata_code": "DOH"
+  },
+  {
+    "location": "Dominica, Canefield",
+    "iata_code": "DCF"
+  },
+  {
+    "location": "Dothan",
+    "iata_code": "DHN"
+  },
+  {
+    "location": "Douala",
+    "iata_code": "DLA"
+  },
+  {
+    "location": "Dresden",
+    "iata_code": "DRS"
+  },
+  {
+    "location": "Dubai",
+    "iata_code": "DXB"
+  },
+  {
+    "location": "Dublin",
+    "iata_code": "DUB"
+  },
+  {
+    "location": "Duluth",
+    "iata_code": "DLH"
+  },
+  {
+    "location": "Dumort",
+    "iata_code": "SDU"
+  },
+  {
+    "location": "Durango",
+    "iata_code": "DGO"
+  },
+  {
+    "location": "Durango",
+    "iata_code": "DRO"
+  },
+  {
+    "location": "Durban",
+    "iata_code": "DUR"
+  },
+  {
+    "location": "Dusseldorf",
+    "iata_code": "DUS"
+  },
+  {
+    "location": "Dutch Harbor",
+    "iata_code": "DUT"
+  },
+  {
+    "location": "East London",
+    "iata_code": "ELS"
+  },
+  {
+    "location": "East Midlands",
+    "iata_code": "EMA"
+  },
+  {
+    "location": "Easter Island",
+    "iata_code": "IPC"
+  },
+  {
+    "location": "Edinburgh",
+    "iata_code": "EDI"
+  },
+  {
+    "location": "Edmonton, Albert Int'l",
+    "iata_code": "YEG"
+  },
+  {
+    "location": "Edmonton, Municipal",
+    "iata_code": "YXD"
+  },
+  {
+    "location": "Eek",
+    "iata_code": "EEK"
+  },
+  {
+    "location": "Eglin Afb/Valparaiso",
+    "iata_code": "VPS"
+  },
+  {
+    "location": "Eindhoven",
+    "iata_code": "EIN"
+  },
+  {
+    "location": "El Paso",
+    "iata_code": "ELP"
+  },
+  {
+    "location": "El Salvador",
+    "iata_code": "ESR"
+  },
+  {
+    "location": "Elat",
+    "iata_code": "ETH"
+  },
+  {
+    "location": "Elko",
+    "iata_code": "EKO"
+  },
+  {
+    "location": "Ely",
+    "iata_code": "ELY"
+  },
+  {
+    "location": "Embarkadero",
+    "iata_code": "EMB"
+  },
+  {
+    "location": "Enschede",
+    "iata_code": "ENS"
+  },
+  {
+    "location": "Entebbe",
+    "iata_code": "EBB"
+  },
+  {
+    "location": "Ercan",
+    "iata_code": "ECN"
+  },
+  {
+    "location": "Erevan",
+    "iata_code": "EVN"
+  },
+  {
+    "location": "Erfurt",
+    "iata_code": "ERF"
+  },
+  {
+    "location": "Erie",
+    "iata_code": "ERI"
+  },
+  {
+    "location": "Eugene",
+    "iata_code": "EUG"
+  },
+  {
+    "location": "Evansville",
+    "iata_code": "EVV"
+  },
+  {
+    "location": "Evenes",
+    "iata_code": "EVE"
+  },
+  {
+    "location": "Exeter",
+    "iata_code": "EXT"
+  },
+  {
+    "location": "Fairbanks",
+    "iata_code": "FAI"
+  },
+  {
+    "location": "False Pass",
+    "iata_code": "KFP"
+  },
+  {
+    "location": "Fargo",
+    "iata_code": "FAR"
+  },
+  {
+    "location": "Faro",
+    "iata_code": "FAO"
+  },
+  {
+    "location": "Fayetteville",
+    "iata_code": "FYV"
+  },
+  {
+    "location": "Fayetteville",
+    "iata_code": "FAY"
+  },
+  {
+    "location": "Fez",
+    "iata_code": "FEZ"
+  },
+  {
+    "location": "Field",
+    "iata_code": "ACY"
+  },
+  {
+    "location": "Field",
+    "iata_code": "MRI"
+  },
+  {
+    "location": "Field",
+    "iata_code": "YED"
+  },
+  {
+    "location": "Fillmore",
+    "iata_code": "FIL"
+  },
+  {
+    "location": "Flagstaff",
+    "iata_code": "FLG"
+  },
+  {
+    "location": "Flint",
+    "iata_code": "FNT"
+  },
+  {
+    "location": "Florence",
+    "iata_code": "FLR"
+  },
+  {
+    "location": "Florence",
+    "iata_code": "MSL"
+  },
+  {
+    "location": "Flores",
+    "iata_code": "FRS"
+  },
+  {
+    "location": "Fort Chima",
+    "iata_code": "YYP"
+  },
+  {
+    "location": "Fort Myers",
+    "iata_code": "FMY"
+  },
+  {
+    "location": "Fort Nelson",
+    "iata_code": "YYE"
+  },
+  {
+    "location": "Fort St. John",
+    "iata_code": "YXJ"
+  },
+  {
+    "location": "Fortaleza",
+    "iata_code": "FOR"
+  },
+  {
+    "location": "Frankfurt",
+    "iata_code": "FRA"
+  },
+  {
+    "location": "Fredericton",
+    "iata_code": "YFC"
+  },
+  {
+    "location": "Freeport",
+    "iata_code": "FPO"
+  },
+  {
+    "location": "Freetown",
+    "iata_code": "FNA"
+  },
+  {
+    "location": "Freetown, Hastings",
+    "iata_code": "HGS"
+  },
+  {
+    "location": "Fresno",
+    "iata_code": "FAT"
+  },
+  {
+    "location": "Friedrichshafen",
+    "iata_code": "FDH"
+  },
+  {
+    "location": "Ft de France",
+    "iata_code": "FDF"
+  },
+  {
+    "location": "Ft Pierce",
+    "iata_code": "FPR"
+  },
+  {
+    "location": "Ft Simpson",
+    "iata_code": "YFS"
+  },
+  {
+    "location": "Ft Smith",
+    "iata_code": "FSM"
+  },
+  {
+    "location": "Ft Wayne",
+    "iata_code": "FWA"
+  },
+  {
+    "location": "Ft Yukon",
+    "iata_code": "FYU"
+  },
+  {
+    "location": "Fukuoka",
+    "iata_code": "FUK"
+  },
+  {
+    "location": "Funchal",
+    "iata_code": "FNC"
+  },
+  {
+    "location": "Fuzhou",
+    "iata_code": "FOC"
+  },
+  {
+    "location": "Gainesville",
+    "iata_code": "GNV"
+  },
+  {
+    "location": "Galena",
+    "iata_code": "GAL"
+  },
+  {
+    "location": "Garoua",
+    "iata_code": "GOU"
+  },
+  {
+    "location": "Gassim",
+    "iata_code": "ELQ"
+  },
+  {
+    "location": "Gauhati",
+    "iata_code": "GAU"
+  },
+  {
+    "location": "Gemena",
+    "iata_code": "GMA"
+  },
+  {
+    "location": "Geneva",
+    "iata_code": "GVA"
+  },
+  {
+    "location": "Genoa",
+    "iata_code": "GOA"
+  },
+  {
+    "location": "Glasgow",
+    "iata_code": "GLA"
+  },
+  {
+    "location": "Glasgow, Prestwick",
+    "iata_code": "PIK"
+  },
+  {
+    "location": "Goma",
+    "iata_code": "GOM"
+  },
+  {
+    "location": "Goodnew Bay",
+    "iata_code": "GNU"
+  },
+  {
+    "location": "Goose Bay",
+    "iata_code": "YYR"
+  },
+  {
+    "location": "Goroka",
+    "iata_code": "GKA"
+  },
+  {
+    "location": "Gothenburg",
+    "iata_code": "GOT"
+  },
+  {
+    "location": "Gran Canaria",
+    "iata_code": "LPA"
+  },
+  {
+    "location": "Grand Cayman",
+    "iata_code": "GCM"
+  },
+  {
+    "location": "Grand Fork",
+    "iata_code": "GFK"
+  },
+  {
+    "location": "Grand Rapids",
+    "iata_code": "GRR"
+  },
+  {
+    "location": "Grand Turk",
+    "iata_code": "GDT"
+  },
+  {
+    "location": "Grande Prairie",
+    "iata_code": "YQU"
+  },
+  {
+    "location": "Grayling",
+    "iata_code": "KGX"
+  },
+  {
+    "location": "Graz",
+    "iata_code": "GRZ"
+  },
+  {
+    "location": "Great Falls",
+    "iata_code": "GTF"
+  },
+  {
+    "location": "Green Bay",
+    "iata_code": "GRB"
+  },
+  {
+    "location": "Greensboro",
+    "iata_code": "GSO"
+  },
+  {
+    "location": "Greenville",
+    "iata_code": "GLH"
+  },
+  {
+    "location": "Greenville",
+    "iata_code": "GSP"
+  },
+  {
+    "location": "Greenville",
+    "iata_code": "GNV"
+  },
+  {
+    "location": "Grenada",
+    "iata_code": "GND"
+  },
+  {
+    "location": "Grenoble",
+    "iata_code": "GNB"
+  },
+  {
+    "location": "Groningen",
+    "iata_code": "GRQ"
+  },
+  {
+    "location": "Guadalajara",
+    "iata_code": "GDL"
+  },
+  {
+    "location": "Guam",
+    "iata_code": "GUM"
+  },
+  {
+    "location": "Guangzhou",
+    "iata_code": "CAN"
+  },
+  {
+    "location": "Guatemala City",
+    "iata_code": "GUA"
+  },
+  {
+    "location": "Guayaquil",
+    "iata_code": "GYE"
+  },
+  {
+    "location": "Guernsey",
+    "iata_code": "GCI"
+  },
+  {
+    "location": "Guiyang",
+    "iata_code": "KWE"
+  },
+  {
+    "location": "Guilin",
+    "iata_code": "KWL"
+  },
+  {
+    "location": "Guiping",
+    "iata_code": "KWE"
+  },
+  {
+    "location": "Gulfport",
+    "iata_code": "GPT"
+  },
+  {
+    "location": "Gunnison",
+    "iata_code": "GUC"
+  },
+  {
+    "location": "Hagen",
+    "iata_code": "HAG"
+  },
+  {
+    "location": "Hail",
+    "iata_code": "HAS"
+  },
+  {
+    "location": "Haikou",
+    "iata_code": "HAK"
+  },
+  {
+    "location": "Hakodate",
+    "iata_code": "HKD"
+  },
+  {
+    "location": "Halifax",
+    "iata_code": "YHZ"
+  },
+  {
+    "location": "Hall Beach",
+    "iata_code": "YUX"
+  },
+  {
+    "location": "Hamburg",
+    "iata_code": "HAM"
+  },
+  {
+    "location": "Hamilton",
+    "iata_code": "YHM"
+  },
+  {
+    "location": "Hangzhou",
+    "iata_code": "HGH"
+  },
+  {
+    "location": "Hanoi",
+    "iata_code": "HAN"
+  },
+  {
+    "location": "Hanover",
+    "iata_code": "HAJ"
+  },
+  {
+    "location": "Harare",
+    "iata_code": "HRE"
+  },
+  {
+    "location": "Harbin",
+    "iata_code": "HRB"
+  },
+  {
+    "location": "Harlingen",
+    "iata_code": "HRL"
+  },
+  {
+    "location": "Harrisburg",
+    "iata_code": "HAR"
+  },
+  {
+    "location": "Hartford",
+    "iata_code": "HFD"
+  },
+  {
+    "location": "Hartford, Barnes",
+    "iata_code": "BNH"
+  },
+  {
+    "location": "Hartford, Bradford",
+    "iata_code": "BDL"
+  },
+  {
+    "location": "Hat Yai",
+    "iata_code": "HDY"
+  },
+  {
+    "location": "Haugesund",
+    "iata_code": "HAU"
+  },
+  {
+    "location": "Havana",
+    "iata_code": "HAV"
+  },
+  {
+    "location": "Hay River",
+    "iata_code": "YHY"
+  },
+  {
+    "location": "Hefei",
+    "iata_code": "HFE"
+  },
+  {
+    "location": "Helena",
+    "iata_code": "HLN"
+  },
+  {
+    "location": "Helsingborg",
+    "iata_code": "AGH"
+  },
+  {
+    "location": "Helsinki",
+    "iata_code": "HEL"
+  },
+  {
+    "location": "Heraklion",
+    "iata_code": "HER"
+  },
+  {
+    "location": "Hermosillo",
+    "iata_code": "HMO"
+  },
+  {
+    "location": "Hilo",
+    "iata_code": "ITO"
+  },
+  {
+    "location": "Hiroshima",
+    "iata_code": "HIJ"
+  },
+  {
+    "location": "Ho Chi Minh City",
+    "iata_code": "SGN"
+  },
+  {
+    "location": "Hohhot",
+    "iata_code": "HET"
+  },
+  {
+    "location": "Holy Cross",
+    "iata_code": "HCR"
+  },
+  {
+    "location": "Homer",
+    "iata_code": "HOM"
+  },
+  {
+    "location": "Hong Kong",
+    "iata_code": "HKG"
+  },
+  {
+    "location": "Honolulu",
+    "iata_code": "HNL"
+  },
+  {
+    "location": "Hoolehua",
+    "iata_code": "MKK"
+  },
+  {
+    "location": "Hooper Bay",
+    "iata_code": "HPB"
+  },
+  {
+    "location": "Hoskins",
+    "iata_code": "HKN"
+  },
+  {
+    "location": "Houston",
+    "iata_code": "SGR"
+  },
+  {
+    "location": "Houston, Hull Field",
+    "iata_code": "HOU"
+  },
+  {
+    "location": "Hughes",
+    "iata_code": "HUS"
+  },
+  {
+    "location": "HumberSide",
+    "iata_code": "HUY"
+  },
+  {
+    "location": "Huntsville",
+    "iata_code": "HSV"
+  },
+  {
+    "location": "Huslia",
+    "iata_code": "HSL"
+  },
+  {
+    "location": "Hyannis",
+    "iata_code": "HYA"
+  },
+  {
+    "location": "Hyderabad",
+    "iata_code": "HYD"
+  },
+  {
+    "location": "Iguassu Falls",
+    "iata_code": "IGU"
+  },
+  {
+    "location": "Illiamna",
+    "iata_code": "ILI"
+  },
+  {
+    "location": "Innsbruck",
+    "iata_code": "INN"
+  },
+  {
+    "location": "Inuvik",
+    "iata_code": "YEV"
+  },
+  {
+    "location": "Indianapolis",
+    "iata_code": "IND"
+  },
+  {
+    "location": "International",
+    "iata_code": "GIG"
+  },
+  {
+    "location": "International",
+    "iata_code": "KIX"
+  },
+  {
+    "location": "International",
+    "iata_code": "MCI"
+  },
+  {
+    "location": "International",
+    "iata_code": "ROB"
+  },
+  {
+    "location": "International",
+    "iata_code": "SDA"
+  },
+  {
+    "location": "Intercontinental",
+    "iata_code": "IAH"
+  },
+  {
+    "location": "Ipoh",
+    "iata_code": "IPH"
+  },
+  {
+    "location": "Iqaluit",
+    "iata_code": "YFB"
+  },
+  {
+    "location": "Iquique",
+    "iata_code": "IQQ"
+  },
+  {
+    "location": "Iron Mountain",
+    "iata_code": "IMT"
+  },
+  {
+    "location": "Isfahan",
+    "iata_code": "IFN"
+  },
+  {
+    "location": "Isiro",
+    "iata_code": "IRP"
+  },
+  {
+    "location": "Islamabad",
+    "iata_code": "ISB"
+  },
+  {
+    "location": "Isles of Scil, Tresco",
+    "iata_code": "TSO"
+  },
+  {
+    "location": "Istanbul",
+    "iata_code": "IST"
+  },
+  {
+    "location": "Ithaca",
+    "iata_code": "ITH"
+  },
+  {
+    "location": "Ivanoff Bay",
+    "iata_code": "KIB"
+  },
+  {
+    "location": "Izmir",
+    "iata_code": "IZM"
+  },
+  {
+    "location": "Izmir, Cigli Military",
+    "iata_code": "IGL"
+  },
+  {
+    "location": "Jackson",
+    "iata_code": "JAC"
+  },
+  {
+    "location": "Jackson",
+    "iata_code": "JAN"
+  },
+  {
+    "location": "Jacksonville",
+    "iata_code": "JAX"
+  },
+  {
+    "location": "Jaipur",
+    "iata_code": "JAI"
+  },
+  {
+    "location": "Jakarta",
+    "iata_code": "CGK"
+  },
+  {
+    "location": "Jakarta",
+    "iata_code": "JKT"
+  },
+  {
+    "location": "Janesville",
+    "iata_code": "JVL"
+  },
+  {
+    "location": "Jeddah",
+    "iata_code": "JED"
+  },
+  {
+    "location": "Jersey",
+    "iata_code": "JER"
+  },
+  {
+    "location": "Jinan",
+    "iata_code": "TNA"
+  },
+  {
+    "location": "Johannesburg",
+    "iata_code": "JNB"
+  },
+  {
+    "location": "Johnston Island",
+    "iata_code": "JON"
+  },
+  {
+    "location": "Johor Bahru",
+    "iata_code": "JHB"
+  },
+  {
+    "location": "Jonkoping",
+    "iata_code": "JKG"
+  },
+  {
+    "location": "Juanjui",
+    "iata_code": "JJI"
+  },
+  {
+    "location": "Juba",
+    "iata_code": "JUB"
+  },
+  {
+    "location": "Juliaca",
+    "iata_code": "JUL"
+  },
+  {
+    "location": "Juneau",
+    "iata_code": "JNU"
+  },
+  {
+    "location": "Kabul",
+    "iata_code": "KBL"
+  },
+  {
+    "location": "Kaduna",
+    "iata_code": "KAD"
+  },
+  {
+    "location": "Kagoshima",
+    "iata_code": "KOJ"
+  },
+  {
+    "location": "Kahului",
+    "iata_code": "OGG"
+  },
+  {
+    "location": "Kaohsiung",
+    "iata_code": "KHH"
+  },
+  {
+    "location": "Kailua",
+    "iata_code": "KOA"
+  },
+  {
+    "location": "Kalamazoo",
+    "iata_code": "AZO"
+  },
+  {
+    "location": "Kalispell",
+    "iata_code": "FCA"
+  },
+  {
+    "location": "Kalskag",
+    "iata_code": "KLG"
+  },
+  {
+    "location": "Kaltag",
+    "iata_code": "KAL"
+  },
+  {
+    "location": "Kanab",
+    "iata_code": "KNB"
+  },
+  {
+    "location": "Kananga",
+    "iata_code": "KGA"
+  },
+  {
+    "location": "Kano",
+    "iata_code": "KAN"
+  },
+  {
+    "location": "Kansas City",
+    "iata_code": "MKC"
+  },
+  {
+    "location": "Karachi",
+    "iata_code": "KHI"
+  },
+  {
+    "location": "Karaganda",
+    "iata_code": "KGF"
+  },
+  {
+    "location": "Karu P",
+    "iata_code": "KRP"
+  },
+  {
+    "location": "Kasigluk",
+    "iata_code": "KUK"
+  },
+  {
+    "location": "Kassel",
+    "iata_code": "KSF"
+  },
+  {
+    "location": "Kathmandu",
+    "iata_code": "KTM"
+  },
+  {
+    "location": "Kauai Is",
+    "iata_code": "LIH"
+  },
+  {
+    "location": "Kenai",
+    "iata_code": "ENA"
+  },
+  {
+    "location": "Kerman",
+    "iata_code": "KER"
+  },
+  {
+    "location": "Ketchikan",
+    "iata_code": "KTN"
+  },
+  {
+    "location": "Khabarovsk",
+    "iata_code": "KHV"
+  },
+  {
+    "location": "Kiev",
+    "iata_code": "IEV"
+  },
+  {
+    "location": "Kiev, Borispol",
+    "iata_code": "KBP"
+  },
+  {
+    "location": "Kigali",
+    "iata_code": "KGL"
+  },
+  {
+    "location": "Kilimanjaro",
+    "iata_code": "JRO"
+  },
+  {
+    "location": "Killeen",
+    "iata_code": "ILE"
+  },
+  {
+    "location": "Kimberley",
+    "iata_code": "KIM"
+  },
+  {
+    "location": "Kindu",
+    "iata_code": "KND"
+  },
+  {
+    "location": "King Cover",
+    "iata_code": "KVC"
+  },
+  {
+    "location": "King Salm",
+    "iata_code": "AKN"
+  },
+  {
+    "location": "Kingston",
+    "iata_code": "KIN"
+  },
+  {
+    "location": "Kingston, Tinson",
+    "iata_code": "KTP"
+  },
+  {
+    "location": "Kinshasa",
+    "iata_code": "FIH"
+  },
+  {
+    "location": "Kipnuk",
+    "iata_code": "KPN"
+  },
+  {
+    "location": "Kiruna",
+    "iata_code": "KRN"
+  },
+  {
+    "location": "Kisangani",
+    "iata_code": "FKI"
+  },
+  {
+    "location": "Klagenfurt",
+    "iata_code": "KLU"
+  },
+  {
+    "location": "Knoxville",
+    "iata_code": "TYS"
+  },
+  {
+    "location": "Kochi",
+    "iata_code": "KCZ"
+  },
+  {
+    "location": "Kodiak",
+    "iata_code": "ADQ"
+  },
+  {
+    "location": "Komatsu",
+    "iata_code": "KMQ"
+  },
+  {
+    "location": "Kongiganak",
+    "iata_code": "KKH"
+  },
+  {
+    "location": "Koror",
+    "iata_code": "ROR"
+  },
+  {
+    "location": "Kosrae",
+    "iata_code": "KSA"
+  },
+  {
+    "location": "Kota Kinabalu",
+    "iata_code": "BKI"
+  },
+  {
+    "location": "Kotzebue",
+    "iata_code": "OTZ"
+  },
+  {
+    "location": "Koyukuk",
+    "iata_code": "KYU"
+  },
+  {
+    "location": "Krasnoyarsk",
+    "iata_code": "KJA"
+  },
+  {
+    "location": "Kristiansand",
+    "iata_code": "KRS"
+  },
+  {
+    "location": "Kuala Lumpur",
+    "iata_code": "KUL"
+  },
+  {
+    "location": "Kuching",
+    "iata_code": "KCH"
+  },
+  {
+    "location": "Kumamoto",
+    "iata_code": "KMJ"
+  },
+  {
+    "location": "Kunming",
+    "iata_code": "KMG"
+  },
+  {
+    "location": "Kuopio",
+    "iata_code": "KUO"
+  },
+  {
+    "location": "Kushiro",
+    "iata_code": "KUH"
+  },
+  {
+    "location": "Kuujjuarap",
+    "iata_code": "YGW"
+  },
+  {
+    "location": "Kuwait",
+    "iata_code": "KWI"
+  },
+  {
+    "location": "Kwajalein",
+    "iata_code": "KWA"
+  },
+  {
+    "location": "Kwangju",
+    "iata_code": "KWJ"
+  },
+  {
+    "location": "Kwethluk",
+    "iata_code": "KWT"
+  },
+  {
+    "location": "Kwigillingok",
+    "iata_code": "KWK"
+  },
+  {
+    "location": "La Ceiba",
+    "iata_code": "LCE"
+  },
+  {
+    "location": "La Crosse",
+    "iata_code": "LSE"
+  },
+  {
+    "location": "La Grande",
+    "iata_code": "YGL"
+  },
+  {
+    "location": "La Paz",
+    "iata_code": "LPB"
+  },
+  {
+    "location": "La Paz Mex",
+    "iata_code": "LAP"
+  },
+  {
+    "location": "Labuan",
+    "iata_code": "LBU"
+  },
+  {
+    "location": "Lafayette",
+    "iata_code": "LFT"
+  },
+  {
+    "location": "Lae",
+    "iata_code": "LAE"
+  },
+  {
+    "location": "Lagos",
+    "iata_code": "LOS"
+  },
+  {
+    "location": "Lahore",
+    "iata_code": "LHE"
+  },
+  {
+    "location": "Lake Charles",
+    "iata_code": "LCH"
+  },
+  {
+    "location": "Lakefront",
+    "iata_code": "BKL"
+  },
+  {
+    "location": "Lanai City",
+    "iata_code": "LNY"
+  },
+  {
+    "location": "Langkawi",
+    "iata_code": "LGK"
+  },
+  {
+    "location": "Lansing",
+    "iata_code": "LAN"
+  },
+  {
+    "location": "Lanzhou",
+    "iata_code": "LHW"
+  },
+  {
+    "location": "Laredo",
+    "iata_code": "LRD"
+  },
+  {
+    "location": "Larnaca",
+    "iata_code": "LCA"
+  },
+  {
+    "location": "Las Piedras",
+    "iata_code": "LSP"
+  },
+  {
+    "location": "Las Vegas",
+    "iata_code": "LAS"
+  },
+  {
+    "location": "Las Vegas, Terminal",
+    "iata_code": "VGT"
+  },
+  {
+    "location": "Launceston",
+    "iata_code": "LST"
+  },
+  {
+    "location": "Lawton",
+    "iata_code": "LAW"
+  },
+  {
+    "location": "Le Havre",
+    "iata_code": "LEH"
+  },
+  {
+    "location": "Leeds",
+    "iata_code": "LBA"
+  },
+  {
+    "location": "Leinster",
+    "iata_code": "LER"
+  },
+  {
+    "location": "Leipzig",
+    "iata_code": "LEJ"
+  },
+  {
+    "location": "Lethbridge",
+    "iata_code": "YQL"
+  },
+  {
+    "location": "Lerwick/Tingwall",
+    "iata_code": "LWK"
+  },
+  {
+    "location": "Lhasa",
+    "iata_code": "LXA"
+  },
+  {
+    "location": "Libreville",
+    "iata_code": "LBV"
+  },
+  {
+    "location": "Liege",
+    "iata_code": "LGG"
+  },
+  {
+    "location": "Lille",
+    "iata_code": "LIL"
+  },
+  {
+    "location": "Lima",
+    "iata_code": "LIM"
+  },
+  {
+    "location": "Limoges",
+    "iata_code": "LIG"
+  },
+  {
+    "location": "Lincoln",
+    "iata_code": "LNK"
+  },
+  {
+    "location": "Lisbon",
+    "iata_code": "LIS"
+  },
+  {
+    "location": "Little Rock",
+    "iata_code": "LIT"
+  },
+  {
+    "location": "Liverpool",
+    "iata_code": "LPL"
+  },
+  {
+    "location": "Livingstone",
+    "iata_code": "LVI"
+  },
+  {
+    "location": "Ljubljana",
+    "iata_code": "LJU"
+  },
+  {
+    "location": "Lobito",
+    "iata_code": "LOB"
+  },
+  {
+    "location": "Lome",
+    "iata_code": "LFW"
+  },
+  {
+    "location": "London",
+    "iata_code": "LON"
+  },
+  {
+    "location": "London",
+    "iata_code": "YXU"
+  },
+  {
+    "location": "London, City Airport",
+    "iata_code": "LCY"
+  },
+  {
+    "location": "London, Gatwick",
+    "iata_code": "LGW"
+  },
+  {
+    "location": "London, Heathrow",
+    "iata_code": "LHR"
+  },
+  {
+    "location": "London, Luton",
+    "iata_code": "LTN"
+  },
+  {
+    "location": "London, Stansted",
+    "iata_code": "STN"
+  },
+  {
+    "location": "Long Beach",
+    "iata_code": "LGB"
+  },
+  {
+    "location": "Longview",
+    "iata_code": "GGG"
+  },
+  {
+    "location": "Loretto",
+    "iata_code": "LTO"
+  },
+  {
+    "location": "Los Angeles",
+    "iata_code": "LAX"
+  },
+  {
+    "location": "Los Angeles",
+    "iata_code": "VNY"
+  },
+  {
+    "location": "Los Mochis",
+    "iata_code": "LMM"
+  },
+  {
+    "location": "Lourdes/Tarbes",
+    "iata_code": "LDE"
+  },
+  {
+    "location": "Louisville",
+    "iata_code": "SDF"
+  },
+  {
+    "location": "Luang Prabang",
+    "iata_code": "LPQ"
+  },
+  {
+    "location": "Lubumbashi",
+    "iata_code": "FBM"
+  },
+  {
+    "location": "Lubbock",
+    "iata_code": "LBB"
+  },
+  {
+    "location": "Lucknow",
+    "iata_code": "LKO"
+  },
+  {
+    "location": "Ludwigshafen",
+    "iata_code": "LUD"
+  },
+  {
+    "location": "Lugano",
+    "iata_code": "LUG"
+  },
+  {
+    "location": "Lukla",
+    "iata_code": "LUA"
+  },
+  {
+    "location": "Lulea",
+    "iata_code": "LLA"
+  },
+  {
+    "location": "Lumid Pau",
+    "iata_code": "LUB"
+  },
+  {
+    "location": "Lusaka",
+    "iata_code": "LUN"
+  },
+  {
+    "location": "Luxembourg",
+    "iata_code": "LUX"
+  },
+  {
+    "location": "Luxor",
+    "iata_code": "LXR"
+  },
+  {
+    "location": "Lyon",
+    "iata_code": "LYS"
+  },
+  {
+    "location": "Macarthur",
+    "iata_code": "ISP"
+  },
+  {
+    "location": "Maastricht",
+    "iata_code": "MST"
+  },
+  {
+    "location": "Maceio",
+    "iata_code": "MCZ"
+  },
+  {
+    "location": "Mackay",
+    "iata_code": "MKY"
+  },
+  {
+    "location": "Macon",
+    "iata_code": "MCN"
+  },
+  {
+    "location": "Madras",
+    "iata_code": "MAA"
+  },
+  {
+    "location": "Madrid",
+    "iata_code": "MAD"
+  },
+  {
+    "location": "Madina",
+    "iata_code": "MED"
+  },
+  {
+    "location": "Madeira",
+    "iata_code": "FNC"
+  },
+  {
+    "location": "Magadan",
+    "iata_code": "GDX"
+  },
+  {
+    "location": "Magdalena",
+    "iata_code": "MGD"
+  },
+  {
+    "location": "Mahe Island",
+    "iata_code": "SEZ"
+  },
+  {
+    "location": "Maiduguri",
+    "iata_code": "MIU"
+  },
+  {
+    "location": "Maitland",
+    "iata_code": "MTL"
+  },
+  {
+    "location": "Majunga",
+    "iata_code": "MJN"
+  },
+  {
+    "location": "Makale",
+    "iata_code": "MQX"
+  },
+  {
+    "location": "Malaga",
+    "iata_code": "AGP"
+  },
+  {
+    "location": "Malé",
+    "iata_code": "MLE"
+  },
+  {
+    "location": "Malmo",
+    "iata_code": "MMA"
+  },
+  {
+    "location": "Malongo",
+    "iata_code": "MAL"
+  },
+  {
+    "location": "Malta",
+    "iata_code": "MLA"
+  },
+  {
+    "location": "Manado",
+    "iata_code": "MDC"
+  },
+  {
+    "location": "Managua",
+    "iata_code": "MGA"
+  },
+  {
+    "location": "Manaus",
+    "iata_code": "MAO"
+  },
+  {
+    "location": "Manchester",
+    "iata_code": "MAN"
+  },
+  {
+    "location": "Manchester",
+    "iata_code": "MHT"
+  },
+  {
+    "location": "Manila",
+    "iata_code": "MNL"
+  },
+  {
+    "location": "Manzanillo",
+    "iata_code": "ZLO"
+  },
+  {
+    "location": "Maputo",
+    "iata_code": "MPM"
+  },
+  {
+    "location": "Maracaibo",
+    "iata_code": "MAR"
+  },
+  {
+    "location": "Maracaibo, Grano Oro",
+    "iata_code": "MAR"
+  },
+  {
+    "location": "Maracaibo, La Chinita",
+    "iata_code": "MAR"
+  },
+  {
+    "location": "Maracaibo",
+    "iata_code": "MAR"
+  },
+  {
+    "location": "Maracay",
+    "iata_code": "MYC"
+  },
+  {
+    "location": "Mar del Plata",
+    "iata_code": "MDQ"
+  },
+  {
+    "location": "Maribor",
+    "iata_code": "MBX"
+  },
+  {
+    "location": "Marietta, Parkersburg",
+    "iata_code": "PKB"
+  },
+  {
+    "location": "Marion",
+    "iata_code": "MWA"
+  },
+  {
+    "location": "Marquette",
+    "iata_code": "MQT"
+  },
+  {
+    "location": "Marrakech",
+    "iata_code": "RAK"
+  },
+  {
+    "location": "Marseille",
+    "iata_code": "MRS"
+  },
+  {
+    "location": "Marshall",
+    "iata_code": "MLL"
+  },
+  {
+    "location": "Martha's Vineyard",
+    "iata_code": "MVY"
+  },
+  {
+    "location": "Mary's",
+    "iata_code": "ISC"
+  },
+  {
+    "location": "Mashad",
+    "iata_code": "MHD"
+  },
+  {
+    "location": "Matamoros",
+    "iata_code": "MAM"
+  },
+  {
+    "location": "Matsuyama",
+    "iata_code": "MYJ"
+  },
+  {
+    "location": "Maturin",
+    "iata_code": "MUN"
+  },
+  {
+    "location": "Mauritius",
+    "iata_code": "MRU"
+  },
+  {
+    "location": "Mayaguez",
+    "iata_code": "MAZ"
+  },
+  {
+    "location": "Mazatlan",
+    "iata_code": "MZT"
+  },
+  {
+    "location": "Mbuji Mayi",
+    "iata_code": "MJM"
+  },
+  {
+    "location": "Mc Allen",
+    "iata_code": "MFE"
+  },
+  {
+    "location": "Mc Grath",
+    "iata_code": "MCG"
+  },
+  {
+    "location": "Mecca",
+    "iata_code": "QEC"
+  },
+  {
+    "location": "Medan",
+    "iata_code": "MES"
+  },
+  {
+    "location": "Medellin",
+    "iata_code": "MDE"
+  },
+  {
+    "location": "Medellin, Olaya Herrera",
+    "iata_code": "EOH"
+  },
+  {
+    "location": "Medford",
+    "iata_code": "MFR"
+  },
+  {
+    "location": "Medina",
+    "iata_code": "MED"
+  },
+  {
+    "location": "Meekatharrp",
+    "iata_code": "MKR"
+  },
+  {
+    "location": "Meigs",
+    "iata_code": "CGX"
+  },
+  {
+    "location": "Mekoryuk",
+    "iata_code": "MYU"
+  },
+  {
+    "location": "Melbourne",
+    "iata_code": "MEL"
+  },
+  {
+    "location": "Melbourne",
+    "iata_code": "MLB"
+  },
+  {
+    "location": "Melbourne, Essendon",
+    "iata_code": "MEB"
+  },
+  {
+    "location": "Memphis",
+    "iata_code": "MEM"
+  },
+  {
+    "location": "Menderes",
+    "iata_code": "ADB"
+  },
+  {
+    "location": "Mendoza",
+    "iata_code": "MDZ"
+  },
+  {
+    "location": "Merida",
+    "iata_code": "MID"
+  },
+  {
+    "location": "Merida",
+    "iata_code": "MRD"
+  },
+  {
+    "location": "Meridian",
+    "iata_code": "MEI"
+  },
+  {
+    "location": "Mexico City",
+    "iata_code": "MEX"
+  },
+  {
+    "location": "Miami",
+    "iata_code": "MIA"
+  },
+  {
+    "location": "Miami, Tamiami",
+    "iata_code": "TMB"
+  },
+  {
+    "location": "Midland/Odessa",
+    "iata_code": "MAF"
+  },
+  {
+    "location": "Mikonos",
+    "iata_code": "JMK"
+  },
+  {
+    "location": "Milan",
+    "iata_code": "MIL"
+  },
+  {
+    "location": "Milan, Linate",
+    "iata_code": "LIN"
+  },
+  {
+    "location": "Milan, Malpensa",
+    "iata_code": "MXP"
+  },
+  {
+    "location": "Milan, Orio Al Serio",
+    "iata_code": "BGY"
+  },
+  {
+    "location": "Milan, Segrate",
+    "iata_code": "SWK"
+  },
+  {
+    "location": "Milwaukee",
+    "iata_code": "MKE"
+  },
+  {
+    "location": "Milford",
+    "iata_code": "MLF"
+  },
+  {
+    "location": "Minatitlan",
+    "iata_code": "MTT"
+  },
+  {
+    "location": "Mindouli",
+    "iata_code": "MNI"
+  },
+  {
+    "location": "Mineralnye",
+    "iata_code": "MRV"
+  },
+  {
+    "location": "Minneapolis",
+    "iata_code": "MSP"
+  },
+  {
+    "location": "Minot",
+    "iata_code": "MOT"
+  },
+  {
+    "location": "Minsk",
+    "iata_code": "MSQ"
+  },
+  {
+    "location": "Mirii",
+    "iata_code": "MYY"
+  },
+  {
+    "location": "Missoula",
+    "iata_code": "MSO"
+  },
+  {
+    "location": "Mitchell",
+    "iata_code": "MHE"
+  },
+  {
+    "location": "Miyazaki",
+    "iata_code": "KMI"
+  },
+  {
+    "location": "Mobile",
+    "iata_code": "MOB"
+  },
+  {
+    "location": "Moenjodaro",
+    "iata_code": "MJD"
+  },
+  {
+    "location": "Moline",
+    "iata_code": "MLI"
+  },
+  {
+    "location": "Mombasa",
+    "iata_code": "MBA"
+  },
+  {
+    "location": "Monastir",
+    "iata_code": "MIR"
+  },
+  {
+    "location": "Monclova",
+    "iata_code": "LOV"
+  },
+  {
+    "location": "Moncton",
+    "iata_code": "YQM"
+  },
+  {
+    "location": "Monroe",
+    "iata_code": "MLU"
+  },
+  {
+    "location": "Monrovia, Roberts",
+    "iata_code": "ROB"
+  },
+  {
+    "location": "Monrovia, Spriggs Payne",
+    "iata_code": "MLW"
+  },
+  {
+    "location": "Montego Bay",
+    "iata_code": "MBJ"
+  },
+  {
+    "location": "Monterrey",
+    "iata_code": "MTY"
+  },
+  {
+    "location": "Montevideo",
+    "iata_code": "MVD"
+  },
+  {
+    "location": "Montgomery",
+    "iata_code": "MGM"
+  },
+  {
+    "location": "Montpellier",
+    "iata_code": "MPL"
+  },
+  {
+    "location": "Montreal",
+    "iata_code": "YMQ"
+  },
+  {
+    "location": "Montreal, Dorval",
+    "iata_code": "YUL"
+  },
+  {
+    "location": "Montreal, Mirabel",
+    "iata_code": "YMX"
+  },
+  {
+    "location": "Moorhead",
+    "iata_code": "MOB"
+  },
+  {
+    "location": "Morelia",
+    "iata_code": "MLM"
+  },
+  {
+    "location": "Morgantown",
+    "iata_code": "MGW"
+  },
+  {
+    "location": "Moroni",
+    "iata_code": "YVA"
+  },
+  {
+    "location": "Moscow",
+    "iata_code": "MOW"
+  },
+  {
+    "location": "Moscow, Bykovo",
+    "iata_code": "BKA"
+  },
+  {
+    "location": "Moscow, Domodedovo",
+    "iata_code": "DME"
+  },
+  {
+    "location": "Moscow, Sheremetyevo",
+    "iata_code": "SVO"
+  },
+  {
+    "location": "Moscow, Vnukovo",
+    "iata_code": "VKO"
+  },
+  {
+    "location": "Mosjoen",
+    "iata_code": "MJF"
+  },
+  {
+    "location": "Mount Hagen",
+    "iata_code": "HGU"
+  },
+  {
+    "location": "Mudanjiang",
+    "iata_code": "MDG"
+  },
+  {
+    "location": "Mulhouse",
+    "iata_code": "MLH"
+  },
+  {
+    "location": "Municipal",
+    "iata_code": "SCF"
+  },
+  {
+    "location": "Munich",
+    "iata_code": "MUC"
+  },
+  {
+    "location": "Muscat",
+    "iata_code": "MCT"
+  },
+  {
+    "location": "Muskegon",
+    "iata_code": "MKG"
+  },
+  {
+    "location": "Nadi",
+    "iata_code": "NAN"
+  },
+  {
+    "location": "Nagasaki",
+    "iata_code": "NGS"
+  },
+  {
+    "location": "Nagoya",
+    "iata_code": "NGO"
+  },
+  {
+    "location": "Naha",
+    "iata_code": "OKA"
+  },
+  {
+    "location": "Nairobi",
+    "iata_code": "NBO"
+  },
+  {
+    "location": "Nairobi",
+    "iata_code": "WIL"
+  },
+  {
+    "location": "Nanjing",
+    "iata_code": "NKG"
+  },
+  {
+    "location": "Nanning",
+    "iata_code": "NNG"
+  },
+  {
+    "location": "Nantes",
+    "iata_code": "NTE"
+  },
+  {
+    "location": "Nantucket",
+    "iata_code": "ACK"
+  },
+  {
+    "location": "Napakiak",
+    "iata_code": "PKA"
+  },
+  {
+    "location": "Naples",
+    "iata_code": "APF"
+  },
+  {
+    "location": "Naples",
+    "iata_code": "NAP"
+  },
+  {
+    "location": "Nashville",
+    "iata_code": "BNA"
+  },
+  {
+    "location": "Nassau",
+    "iata_code": "NAS"
+  },
+  {
+    "location": "Natashquan",
+    "iata_code": "YNA"
+  },
+  {
+    "location": "Natal",
+    "iata_code": "NAT"
+  },
+  {
+    "location": "Nauru",
+    "iata_code": "INU"
+  },
+  {
+    "location": "Nebraska",
+    "iata_code": "OFK"
+  },
+  {
+    "location": "New Bern",
+    "iata_code": "EWN"
+  },
+  {
+    "location": "New Delhi",
+    "iata_code": "DEL"
+  },
+  {
+    "location": "New Haven",
+    "iata_code": "HVN"
+  },
+  {
+    "location": "New Orleans",
+    "iata_code": "MSY"
+  },
+  {
+    "location": "New York",
+    "iata_code": "NYC"
+  },
+  {
+    "location": "New York, Kennedy",
+    "iata_code": "JFK"
+  },
+  {
+    "location": "New York, La Guardia",
+    "iata_code": "LGA"
+  },
+  {
+    "location": "New York, Newark",
+    "iata_code": "EWR"
+  },
+  {
+    "location": "Newburgh",
+    "iata_code": "SWF"
+  },
+  {
+    "location": "Newbury",
+    "iata_code": "AEP"
+  },
+  {
+    "location": "Newcastle",
+    "iata_code": "NCL"
+  },
+  {
+    "location": "Newtown",
+    "iata_code": "WWT"
+  },
+  {
+    "location": "Niamey",
+    "iata_code": "NIM"
+  },
+  {
+    "location": "Niagara Falls",
+    "iata_code": "IAG"
+  },
+  {
+    "location": "Nice",
+    "iata_code": "NCE"
+  },
+  {
+    "location": "Nightmute",
+    "iata_code": "NME"
+  },
+  {
+    "location": "Niigata",
+    "iata_code": "KIJ"
+  },
+  {
+    "location": "Nikolaevsk",
+    "iata_code": "NKB"
+  },
+  {
+    "location": "Nimes",
+    "iata_code": "FNI"
+  },
+  {
+    "location": "Ningbo",
+    "iata_code": "NGB"
+  },
+  {
+    "location": "Nis",
+    "iata_code": "INI"
+  },
+  {
+    "location": "Nome",
+    "iata_code": "OME"
+  },
+  {
+    "location": "Norfolk",
+    "iata_code": "ORF"
+  },
+  {
+    "location": "Norilsk",
+    "iata_code": "NRK"
+  },
+  {
+    "location": "Norman Wells",
+    "iata_code": "YVQ"
+  },
+  {
+    "location": "Norrkoping",
+    "iata_code": "NRK"
+  },
+  {
+    "location": "North Bend",
+    "iata_code": "OTH"
+  },
+  {
+    "location": "Norwich",
+    "iata_code": "NWI"
+  },
+  {
+    "location": "Nouakchott",
+    "iata_code": "NKC"
+  },
+  {
+    "location": "Noumea",
+    "iata_code": "NOU"
+  },
+  {
+    "location": "Noumea, Magenta",
+    "iata_code": "GEA"
+  },
+  {
+    "location": "Novosibirsk",
+    "iata_code": "OVB"
+  },
+  {
+    "location": "Nuevo Laredo",
+    "iata_code": "NLD"
+  },
+  {
+    "location": "Nulato",
+    "iata_code": "NUL"
+  },
+  {
+    "location": "Nunapitchuk",
+    "iata_code": "NUP"
+  },
+  {
+    "location": "Nuremberg",
+    "iata_code": "NUE"
+  },
+  {
+    "location": "Oakland",
+    "iata_code": "OAK"
+  },
+  {
+    "location": "Oaxaca",
+    "iata_code": "OAX"
+  },
+  {
+    "location": "Oita",
+    "iata_code": "OIT"
+  },
+  {
+    "location": "Okinawa",
+    "iata_code": "OKA"
+  },
+  {
+    "location": "Okayama",
+    "iata_code": "OKJ"
+  },
+  {
+    "location": "Oklahoma City",
+    "iata_code": "OKC"
+  },
+  {
+    "location": "Omaha",
+    "iata_code": "OMA"
+  },
+  {
+    "location": "Ontario",
+    "iata_code": "ONT"
+  },
+  {
+    "location": "Oran",
+    "iata_code": "ORN"
+  },
+  {
+    "location": "Orebro",
+    "iata_code": "ORB"
+  },
+  {
+    "location": "Orlando",
+    "iata_code": "MCO"
+  },
+  {
+    "location": "Osaka",
+    "iata_code": "OSA"
+  },
+  {
+    "location": "Osaka, Itami",
+    "iata_code": "ITM"
+  },
+  {
+    "location": "Osaka, International",
+    "iata_code": "KIX"
+  },
+  {
+    "location": "Oshkosh",
+    "iata_code": "OSH"
+  },
+  {
+    "location": "Osijek",
+    "iata_code": "OSI"
+  },
+  {
+    "location": "Oslo",
+    "iata_code": "OSL"
+  },
+  {
+    "location": "Oslo, Fornebu Airport",
+    "iata_code": "FBU"
+  },
+  {
+    "location": "Oslo, Gardermoen",
+    "iata_code": "GEN"
+  },
+  {
+    "location": "Osorno",
+    "iata_code": "ZOS"
+  },
+  {
+    "location": "Ostend",
+    "iata_code": "OST"
+  },
+  {
+    "location": "Ottawa",
+    "iata_code": "YOW"
+  },
+  {
+    "location": "Ouagadougou",
+    "iata_code": "OUA"
+  },
+  {
+    "location": "Oxnard/Ventura",
+    "iata_code": "OXR"
+  },
+  {
+    "location": "Pago Pago",
+    "iata_code": "PPG"
+  },
+  {
+    "location": "Palembang",
+    "iata_code": "PLM"
+  },
+  {
+    "location": "Palermo",
+    "iata_code": "PMO"
+  },
+  {
+    "location": "Palm Springs",
+    "iata_code": "PSP"
+  },
+  {
+    "location": "Palma de Mallorca",
+    "iata_code": "PMI"
+  },
+  {
+    "location": "Panama City",
+    "iata_code": "PTY"
+  },
+  {
+    "location": "Panama City ( FL .)",
+    "iata_code": "PFN"
+  },
+  {
+    "location": "Panama City, Paitilla",
+    "iata_code": "PAC"
+  },
+  {
+    "location": "Papeete",
+    "iata_code": "PPT"
+  },
+  {
+    "location": "Paphos",
+    "iata_code": "PFO"
+  },
+  {
+    "location": "Paramaribo",
+    "iata_code": "PBM"
+  },
+  {
+    "location": "Paris",
+    "iata_code": "PAR"
+  },
+  {
+    "location": "Paris, Charles de Gaulle",
+    "iata_code": "CDG"
+  },
+  {
+    "location": "Paris, Le Bourget",
+    "iata_code": "LBG"
+  },
+  {
+    "location": "Paris, Orly",
+    "iata_code": "ORY"
+  },
+  {
+    "location": "Pasco",
+    "iata_code": "PSC"
+  },
+  {
+    "location": "Pau",
+    "iata_code": "PUF"
+  },
+  {
+    "location": "Penang",
+    "iata_code": "PEN"
+  },
+  {
+    "location": "Pensacola",
+    "iata_code": "PNS"
+  },
+  {
+    "location": "Peoria",
+    "iata_code": "PIA"
+  },
+  {
+    "location": "Pereira",
+    "iata_code": "PEI"
+  },
+  {
+    "location": "Perpignan",
+    "iata_code": "PGF"
+  },
+  {
+    "location": "Perryville",
+    "iata_code": "KPV"
+  },
+  {
+    "location": "Perth",
+    "iata_code": "PER"
+  },
+  {
+    "location": "Pescara",
+    "iata_code": "PSR"
+  },
+  {
+    "location": "Peshawar",
+    "iata_code": "PEW"
+  },
+  {
+    "location": "Petersburg",
+    "iata_code": "PSG"
+  },
+  {
+    "location": "Philaelphia, North",
+    "iata_code": "PNE"
+  },
+  {
+    "location": "Philadelphia",
+    "iata_code": "PHL"
+  },
+  {
+    "location": "Phnom Penh",
+    "iata_code": "PNH"
+  },
+  {
+    "location": "Phoenix",
+    "iata_code": "PHX"
+  },
+  {
+    "location": "Phuket",
+    "iata_code": "HKT"
+  },
+  {
+    "location": "Pierre",
+    "iata_code": "PIR"
+  },
+  {
+    "location": "Pisa",
+    "iata_code": "PSA"
+  },
+  {
+    "location": "Pittsburgh",
+    "iata_code": "PIT"
+  },
+  {
+    "location": "Piura",
+    "iata_code": "PIU"
+  },
+  {
+    "location": "Platinum",
+    "iata_code": "PTU"
+  },
+  {
+    "location": "Plymouth",
+    "iata_code": "PYM"
+  },
+  {
+    "location": "Pocatello",
+    "iata_code": "PIH"
+  },
+  {
+    "location": "Pohnpei",
+    "iata_code": "PNI"
+  },
+  {
+    "location": "Point à Pitre",
+    "iata_code": "PTP"
+  },
+  {
+    "location": "Pointe Noire",
+    "iata_code": "PNR"
+  },
+  {
+    "location": "Ponce",
+    "iata_code": "PSE"
+  },
+  {
+    "location": "Ponta Delgada",
+    "iata_code": "PDL"
+  },
+  {
+    "location": "Port au Prince",
+    "iata_code": "PAP"
+  },
+  {
+    "location": "Port Elizabeth",
+    "iata_code": "PLZ"
+  },
+  {
+    "location": "Port Escondido",
+    "iata_code": "PXM"
+  },
+  {
+    "location": "Port Gentil",
+    "iata_code": "POG"
+  },
+  {
+    "location": "Port Graham",
+    "iata_code": "PGM"
+  },
+  {
+    "location": "Port Harcourt",
+    "iata_code": "PHC"
+  },
+  {
+    "location": "Port Heiden",
+    "iata_code": "PTH"
+  },
+  {
+    "location": "Port Moresby",
+    "iata_code": "POM"
+  },
+  {
+    "location": "Port of Spain, Trinidad",
+    "iata_code": "POS"
+  },
+  {
+    "location": "Port Velho",
+    "iata_code": "PVH"
+  },
+  {
+    "location": "Port Vila",
+    "iata_code": "VLI"
+  },
+  {
+    "location": "Porto",
+    "iata_code": "OPO"
+  },
+  {
+    "location": "Porto Alegre",
+    "iata_code": "POA"
+  },
+  {
+    "location": "Portland",
+    "iata_code": "PDX"
+  },
+  {
+    "location": "Portland",
+    "iata_code": "PWM"
+  },
+  {
+    "location": "Pralorman",
+    "iata_code": "PMV"
+  },
+  {
+    "location": "Prague",
+    "iata_code": "PRG"
+  },
+  {
+    "location": "Presque Isle",
+    "iata_code": "PQI"
+  },
+  {
+    "location": "Prince George",
+    "iata_code": "YXS"
+  },
+  {
+    "location": "Prince Rupert",
+    "iata_code": "YPR"
+  },
+  {
+    "location": "Providence",
+    "iata_code": "PVD"
+  },
+  {
+    "location": "Providenciales",
+    "iata_code": "PLS"
+  },
+  {
+    "location": "Pucallpa",
+    "iata_code": "PCL"
+  },
+  {
+    "location": "Puebla",
+    "iata_code": "PBC"
+  },
+  {
+    "location": "Puerto Ayacucho",
+    "iata_code": "PYH"
+  },
+  {
+    "location": "Puerto Cabello",
+    "iata_code": "PBL"
+  },
+  {
+    "location": "Puerto Maldonado",
+    "iata_code": "PEM"
+  },
+  {
+    "location": "Puerto Montt",
+    "iata_code": "PMC"
+  },
+  {
+    "location": "Puerto Ordaz",
+    "iata_code": "PZO"
+  },
+  {
+    "location": "Puerto Plata",
+    "iata_code": "POP"
+  },
+  {
+    "location": "Puerto Vallarta",
+    "iata_code": "PVR"
+  },
+  {
+    "location": "Punta Arenas",
+    "iata_code": "PUQ"
+  },
+  {
+    "location": "Pusan",
+    "iata_code": "PUS"
+  },
+  {
+    "location": "Pyongyang",
+    "iata_code": "FNJ"
+  },
+  {
+    "location": "Qingdao",
+    "iata_code": "TAO"
+  },
+  {
+    "location": "Quebec",
+    "iata_code": "YQB"
+  },
+  {
+    "location": "Quetta",
+    "iata_code": "UET"
+  },
+  {
+    "location": "Quinhagak",
+    "iata_code": "KWN"
+  },
+  {
+    "location": "Quito",
+    "iata_code": "UIO"
+  },
+  {
+    "location": "Rabat",
+    "iata_code": "RBA"
+  },
+  {
+    "location": "Rabaul",
+    "iata_code": "RAB"
+  },
+  {
+    "location": "Raleigh/Durham",
+    "iata_code": "RDU"
+  },
+  {
+    "location": "Rangoon/Yangon",
+    "iata_code": "RGN"
+  },
+  {
+    "location": "Rapid City",
+    "iata_code": "RAP"
+  },
+  {
+    "location": "Rarotonga",
+    "iata_code": "RAR"
+  },
+  {
+    "location": "Recife",
+    "iata_code": "REC"
+  },
+  {
+    "location": "Red Devil",
+    "iata_code": "RDV"
+  },
+  {
+    "location": "Redding",
+    "iata_code": "RDD"
+  },
+  {
+    "location": "Regina",
+    "iata_code": "YQR"
+  },
+  {
+    "location": "Reno",
+    "iata_code": "RNO"
+  },
+  {
+    "location": "Resolute",
+    "iata_code": "YRB"
+  },
+  {
+    "location": "Reykjavik",
+    "iata_code": "REK"
+  },
+  {
+    "location": "Richmond",
+    "iata_code": "RIC"
+  },
+  {
+    "location": "Riga",
+    "iata_code": "RIX"
+  },
+  {
+    "location": "Riga, Skulte",
+    "iata_code": "RSC"
+  },
+  {
+    "location": "Rimini",
+    "iata_code": "RMI"
+  },
+  {
+    "location": "Rio de Janeiro",
+    "iata_code": "RIO"
+  },
+  {
+    "location": "Rio Gallegos",
+    "iata_code": "RGL"
+  },
+  {
+    "location": "Rioja",
+    "iata_code": "RIJ"
+  },
+  {
+    "location": "Riyadh",
+    "iata_code": "RUH"
+  },
+  {
+    "location": "Roanoke",
+    "iata_code": "ROA"
+  },
+  {
+    "location": "Roatan",
+    "iata_code": "RTB"
+  },
+  {
+    "location": "Rochester",
+    "iata_code": "ROC"
+  },
+  {
+    "location": "Rochester",
+    "iata_code": "RST"
+  },
+  {
+    "location": "Rockford",
+    "iata_code": "RFD"
+  },
+  {
+    "location": "Rocky Mount/Wilson",
+    "iata_code": "RWI"
+  },
+  {
+    "location": "Rome",
+    "iata_code": "ROM"
+  },
+  {
+    "location": "Rome, Ciampino",
+    "iata_code": "CIA"
+  },
+  {
+    "location": "Rome, Fiumicino",
+    "iata_code": "FCO"
+  },
+  {
+    "location": "Roosevelt",
+    "iata_code": "ROL"
+  },
+  {
+    "location": "Roskilde",
+    "iata_code": "RKE"
+  },
+  {
+    "location": "Roswell",
+    "iata_code": "ROW"
+  },
+  {
+    "location": "Rota",
+    "iata_code": "ROP"
+  },
+  {
+    "location": "Rotterdam",
+    "iata_code": "RTM"
+  },
+  {
+    "location": "Rouen",
+    "iata_code": "URO"
+  },
+  {
+    "location": "Ruby",
+    "iata_code": "RBY"
+  },
+  {
+    "location": "Russian Mission",
+    "iata_code": "RSH"
+  },
+  {
+    "location": "Saarbrucken",
+    "iata_code": "SCN"
+  },
+  {
+    "location": "Sacramento",
+    "iata_code": "SMF"
+  },
+  {
+    "location": "Saipan",
+    "iata_code": "SPN"
+  },
+  {
+    "location": "Sal",
+    "iata_code": "SID"
+  },
+  {
+    "location": "Salt Lake City",
+    "iata_code": "SLC"
+  },
+  {
+    "location": "Saltillo",
+    "iata_code": "SLW"
+  },
+  {
+    "location": "Salvador",
+    "iata_code": "SSA"
+  },
+  {
+    "location": "Salzburg",
+    "iata_code": "SZG"
+  },
+  {
+    "location": "San Andres Island",
+    "iata_code": "ADZ"
+  },
+  {
+    "location": "San Angelo",
+    "iata_code": "SJT"
+  },
+  {
+    "location": "San Antonio",
+    "iata_code": "SAT"
+  },
+  {
+    "location": "San Antonio",
+    "iata_code": "SVZ"
+  },
+  {
+    "location": "San Diego",
+    "iata_code": "SAN"
+  },
+  {
+    "location": "San Francisco",
+    "iata_code": "SFO"
+  },
+  {
+    "location": "San Jose",
+    "iata_code": "SJC"
+  },
+  {
+    "location": "San Jose",
+    "iata_code": "SJO"
+  },
+  {
+    "location": "San Jose, Los Cabos",
+    "iata_code": "SJD"
+  },
+  {
+    "location": "San Juan",
+    "iata_code": "SJU"
+  },
+  {
+    "location": "San Juan, Isla Grande",
+    "iata_code": "SIG"
+  },
+  {
+    "location": "San Luis Potosi",
+    "iata_code": "SLP"
+  },
+  {
+    "location": "San Pedro Sula",
+    "iata_code": "SAP"
+  },
+  {
+    "location": "San Salvador",
+    "iata_code": "SAL"
+  },
+  {
+    "location": "San Tome",
+    "iata_code": "SOM"
+  },
+  {
+    "location": "Sanaa",
+    "iata_code": "SAH"
+  },
+  {
+    "location": "Sand Point",
+    "iata_code": "SDP"
+  },
+  {
+    "location": "Sandakan",
+    "iata_code": "SDK"
+  },
+  {
+    "location": "Santa Barbara",
+    "iata_code": "SBA"
+  },
+  {
+    "location": "Santa Cruz",
+    "iata_code": "SRZ"
+  },
+  {
+    "location": "Santa Cruz",
+    "iata_code": "VVI"
+  },
+  {
+    "location": "Santa Maria",
+    "iata_code": "SMX"
+  },
+  {
+    "location": "Santiago",
+    "iata_code": "SCL"
+  },
+  {
+    "location": "Santiago de Compostela",
+    "iata_code": "SCQ"
+  },
+  {
+    "location": "Santo Domingo",
+    "iata_code": "SDQ"
+  },
+  {
+    "location": "Santo Domingo",
+    "iata_code": "STD"
+  },
+  {
+    "location": "Sanya",
+    "iata_code": "SYX"
+  },
+  {
+    "location": "Sao Luiz",
+    "iata_code": "SLZ"
+  },
+  {
+    "location": "Sao Paulo",
+    "iata_code": "SAO"
+  },
+  {
+    "location": "Sao Paulo, Congonhas",
+    "iata_code": "CGH"
+  },
+  {
+    "location": "Sao Paulo, Guarulhos",
+    "iata_code": "GRU"
+  },
+  {
+    "location": "Sao Paulo, Viracopos",
+    "iata_code": "VCP"
+  },
+  {
+    "location": "Sao Tome Island",
+    "iata_code": "TMS"
+  },
+  {
+    "location": "Sapporo",
+    "iata_code": "SPK"
+  },
+  {
+    "location": "Sapporo, Chitose",
+    "iata_code": "CTS"
+  },
+  {
+    "location": "Sapporo, Okadama",
+    "iata_code": "OKD"
+  },
+  {
+    "location": "Sarasota/ Bradenton",
+    "iata_code": "SRQ"
+  },
+  {
+    "location": "Sault Ste. Marie",
+    "iata_code": "YAM"
+  },
+  {
+    "location": "Savannah",
+    "iata_code": "SAV"
+  },
+  {
+    "location": "Scammon Bay",
+    "iata_code": "SCM"
+  },
+  {
+    "location": "Scranton, Wilkes-Barre",
+    "iata_code": "AVP"
+  },
+  {
+    "location": "Seatca",
+    "iata_code": "SCS"
+  },
+  {
+    "location": "Seattle",
+    "iata_code": "SEA"
+  },
+  {
+    "location": "Sedona",
+    "iata_code": "SDX"
+  },
+  {
+    "location": "Seldovia",
+    "iata_code": "SOV"
+  },
+  {
+    "location": "Sendai",
+    "iata_code": "SDJ"
+  },
+  {
+    "location": "Seoul",
+    "iata_code": "SEL"
+  },
+  {
+    "location": "Sepulot",
+    "iata_code": "SPE"
+  },
+  {
+    "location": "Seward",
+    "iata_code": "SWD"
+  },
+  {
+    "location": "Seville",
+    "iata_code": "SVQ"
+  },
+  {
+    "location": "Shageluk",
+    "iata_code": "SHX"
+  },
+  {
+    "location": "Shanghai",
+    "iata_code": "SHA"
+  },
+  {
+    "location": "Shannon",
+    "iata_code": "SNN"
+  },
+  {
+    "location": "Shantou/Swatow",
+    "iata_code": "SWA"
+  },
+  {
+    "location": "Sharjah",
+    "iata_code": "SHJ"
+  },
+  {
+    "location": "Shemya Islands",
+    "iata_code": "SYA"
+  },
+  {
+    "location": "Shenyang",
+    "iata_code": "SHE"
+  },
+  {
+    "location": "Shenzhen",
+    "iata_code": "SZX"
+  },
+  {
+    "location": "Shijiazhuang",
+    "iata_code": "SJW"
+  },
+  {
+    "location": "Shiraz",
+    "iata_code": "SYZ"
+  },
+  {
+    "location": "Shreveport",
+    "iata_code": "SHV"
+  },
+  {
+    "location": "Sibu",
+    "iata_code": "SBW"
+  },
+  {
+    "location": "Simferopol",
+    "iata_code": "SIP"
+  },
+  {
+    "location": "Singapore",
+    "iata_code": "SIN"
+  },
+  {
+    "location": "Singapore, Paya Lebar",
+    "iata_code": "QPG"
+  },
+  {
+    "location": "Singapore, Seletar",
+    "iata_code": "XSP"
+  },
+  {
+    "location": "Sioux Falls",
+    "iata_code": "FSD"
+  },
+  {
+    "location": "Sitka",
+    "iata_code": "SIT"
+  },
+  {
+    "location": "Sleetmute",
+    "iata_code": "SLQ"
+  },
+  {
+    "location": "Sofia",
+    "iata_code": "SOF"
+  },
+  {
+    "location": "Sokoto",
+    "iata_code": "SKO"
+  },
+  {
+    "location": "Soldotna",
+    "iata_code": "SXW"
+  },
+  {
+    "location": "Sonderborg",
+    "iata_code": "SGD"
+  },
+  {
+    "location": "Sondre Stromfjord",
+    "iata_code": "SFJ"
+  },
+  {
+    "location": "South Bend",
+    "iata_code": "SBN"
+  },
+  {
+    "location": "Springfield",
+    "iata_code": "SGF"
+  },
+  {
+    "location": "Springfield",
+    "iata_code": "SPI"
+  },
+  {
+    "location": "St. Denis de La Reunion",
+    "iata_code": "RUN"
+  },
+  {
+    "location": "St. George",
+    "iata_code": "SGU"
+  },
+  {
+    "location": "St. George Island",
+    "iata_code": "STG"
+  },
+  {
+    "location": "St. Johns",
+    "iata_code": "YYT"
+  },
+  {
+    "location": "St. Kitts",
+    "iata_code": "SKB"
+  },
+  {
+    "location": "St. Louis",
+    "iata_code": "STL"
+  },
+  {
+    "location": "St. Lucia",
+    "iata_code": "SLU"
+  },
+  {
+    "location": "St. Lucia, Hewanorra",
+    "iata_code": "UVF"
+  },
+  {
+    "location": "St. Maarten",
+    "iata_code": "SXM"
+  },
+  {
+    "location": "St. Mary's",
+    "iata_code": "KSM"
+  },
+  {
+    "location": "St. Petersburg",
+    "iata_code": "LED"
+  },
+  {
+    "location": "St. Thomas",
+    "iata_code": "STT"
+  },
+  {
+    "location": "St. Vincent",
+    "iata_code": "SVD"
+  },
+  {
+    "location": "Sta Cruz Huat",
+    "iata_code": "HUX"
+  },
+  {
+    "location": "Stavanger",
+    "iata_code": "SVG"
+  },
+  {
+    "location": "Steamboat Spring",
+    "iata_code": "SBS"
+  },
+  {
+    "location": "Stevens Village",
+    "iata_code": "SVS"
+  },
+  {
+    "location": "Stockholm",
+    "iata_code": "STO"
+  },
+  {
+    "location": "Stockholm, Arlanda",
+    "iata_code": "ARN"
+  },
+  {
+    "location": "Stockholm, Bromma",
+    "iata_code": "BMA"
+  },
+  {
+    "location": "Stockton",
+    "iata_code": "SCK"
+  },
+  {
+    "location": "Stony River",
+    "iata_code": "SRV"
+  },
+  {
+    "location": "Strasbourg",
+    "iata_code": "SXB"
+  },
+  {
+    "location": "Stuttgart",
+    "iata_code": "STR"
+  },
+  {
+    "location": "Subang",
+    "iata_code": "SZB"
+  },
+  {
+    "location": "Sudbury",
+    "iata_code": "YSB"
+  },
+  {
+    "location": "Sukhumi",
+    "iata_code": "SUI"
+  },
+  {
+    "location": "Sulaymaniyah",
+    "iata_code": "ISU"
+  },
+  {
+    "location": "Sumenep",
+    "iata_code": "SUP"
+  },
+  {
+    "location": "Sumburgh",
+    "iata_code": "LSI"
+  },
+  {
+    "location": "Sumurgh",
+    "iata_code": "SWH"
+  },
+  {
+    "location": "Sumurgh",
+    "iata_code": "SWF"
+  },
+  {
+    "location": "Sundsvall",
+    "iata_code": "SDL"
+  },
+  {
+    "location": "Surabaya",
+    "iata_code": "SUB"
+  },
+  {
+    "location": "Surabaya, Juanda",
+    "iata_code": "SUB"
+  },
+  {
+    "location": "Suva",
+    "iata_code": "SUV"
+  },
+  {
+    "location": "Sverdlovsk, Ekaterinburg",
+    "iata_code": "SVX"
+  },
+  {
+    "location": "Sydney",
+    "iata_code": "SYD"
+  },
+  {
+    "location": "Syracuse",
+    "iata_code": "SYR"
+  },
+  {
+    "location": "Tabriz",
+    "iata_code": "TBZ"
+  },
+  {
+    "location": "Tabuk",
+    "iata_code": "TUU"
+  },
+  {
+    "location": "Tacna",
+    "iata_code": "TCQ"
+  },
+  {
+    "location": "Taegu, Korea",
+    "iata_code": "TAE"
+  },
+  {
+    "location": "Taichung",
+    "iata_code": "TXG"
+  },
+  {
+    "location": "Taif",
+    "iata_code": "TIF"
+  },
+  {
+    "location": "Taipei",
+    "iata_code": "TPE"
+  },
+  {
+    "location": "Taipei, Shung Shan",
+    "iata_code": "TSA"
+  },
+  {
+    "location": "Takamatsu",
+    "iata_code": "TAK"
+  },
+  {
+    "location": "Talara",
+    "iata_code": "TYL"
+  },
+  {
+    "location": "Tallahassee",
+    "iata_code": "TLH"
+  },
+  {
+    "location": "Tallinn",
+    "iata_code": "TLL"
+  },
+  {
+    "location": "Tamarasset",
+    "iata_code": "TMR"
+  },
+  {
+    "location": "Tampa",
+    "iata_code": "TPA"
+  },
+  {
+    "location": "Tampere",
+    "iata_code": "TMP"
+  },
+  {
+    "location": "Tanana",
+    "iata_code": "TAL"
+  },
+  {
+    "location": "Tangier",
+    "iata_code": "TNG"
+  },
+  {
+    "location": "Tarapoto",
+    "iata_code": "TPP"
+  },
+  {
+    "location": "Tashkent",
+    "iata_code": "TAS"
+  },
+  {
+    "location": "Tawau",
+    "iata_code": "TWU"
+  },
+  {
+    "location": "Teeside",
+    "iata_code": "MME"
+  },
+  {
+    "location": "Tegucigalpa",
+    "iata_code": "TGU"
+  },
+  {
+    "location": "Teheran",
+    "iata_code": "THR"
+  },
+  {
+    "location": "Tel Aviv",
+    "iata_code": "TLV"
+  },
+  {
+    "location": "Tel Aviv Yafo, Sde Dov",
+    "iata_code": "SDV"
+  },
+  {
+    "location": "Temuco",
+    "iata_code": "ZCO"
+  },
+  {
+    "location": "Tenerife",
+    "iata_code": "TCI"
+  },
+  {
+    "location": "Tenerife, Norte",
+    "iata_code": "TFN"
+  },
+  {
+    "location": "Tenerife, Sur",
+    "iata_code": "TFS"
+  },
+  {
+    "location": "Terceira",
+    "iata_code": "TER"
+  },
+  {
+    "location": "Termez",
+    "iata_code": "TMJ"
+  },
+  {
+    "location": "Terre Haute",
+    "iata_code": "HUT"
+  },
+  {
+    "location": "Terrace",
+    "iata_code": "YXT"
+  },
+  {
+    "location": "Texarkana",
+    "iata_code": "TXK"
+  },
+  {
+    "location": "Thessaloniki",
+    "iata_code": "SKG"
+  },
+  {
+    "location": "Thunder Bay",
+    "iata_code": "YQT"
+  },
+  {
+    "location": "Thule",
+    "iata_code": "THU"
+  },
+  {
+    "location": "Tianjin",
+    "iata_code": "TSN"
+  },
+  {
+    "location": "Tijuana",
+    "iata_code": "TIJ"
+  },
+  {
+    "location": "Tiksi",
+    "iata_code": "TKS"
+  },
+  {
+    "location": "Timișoara",
+    "iata_code": "TSR"
+  },
+  {
+    "location": "Tingo Maria",
+    "iata_code": "TGI"
+  },
+  {
+    "location": "Tirana",
+    "iata_code": "TIA"
+  },
+  {
+    "location": "Tiraspol",
+    "iata_code": "TIR"
+  },
+  {
+    "location": "Tobago",
+    "iata_code": "TAB"
+  },
+  {
+    "location": "Tobruk",
+    "iata_code": "TOB"
+  },
+  {
+    "location": "Toksook Bay",
+    "iata_code": "OOK"
+  },
+  {
+    "location": "Tokushima",
+    "iata_code": "TKS"
+  },
+  {
+    "location": "Toledo",
+    "iata_code": "TOL"
+  },
+  {
+    "location": "Tokyo",
+    "iata_code": "TYO"
+  },
+  {
+    "location": "Tokyo, Haneda",
+    "iata_code": "HND"
+  },
+  {
+    "location": "Tokyo, Narita",
+    "iata_code": "NRT"
+  },
+  {
+    "location": "Tonga",
+    "iata_code": "TBU"
+  },
+  {
+    "location": "Tonsberg",
+    "iata_code": "TOS"
+  },
+  {
+    "location": "Toowoomba",
+    "iata_code": "TWB"
+  },
+  {
+    "location": "Topeka",
+    "iata_code": "TOP"
+  },
+  {
+    "location": "Torino",
+    "iata_code": "TRN"
+  },
+  {
+    "location": "Toronto",
+    "iata_code": "YYZ"
+  },
+  {
+    "location": "Toronto, City Centre",
+    "iata_code": "YTZ"
+  },
+  {
+    "location": "Toronto, Island",
+    "iata_code": "YTD"
+  },
+  {
+    "location": "Torreon",
+    "iata_code": "TRC"
+  },
+  {
+    "location": "Tottori",
+    "iata_code": "TTJ"
+  },
+  {
+    "location": "Toulon/Hyeres",
+    "iata_code": "TLN"
+  },
+  {
+    "location": "Toulouse",
+    "iata_code": "TLS"
+  },
+  {
+    "location": "Tours",
+    "iata_code": "TUF"
+  },
+  {
+    "location": "Townsville",
+    "iata_code": "TSV"
+  },
+  {
+    "location": "Trapani",
+    "iata_code": "TPS"
+  },
+  {
+    "location": "Traverse City",
+    "iata_code": "TVC"
+  },
+  {
+    "location": "Trenton",
+    "iata_code": "TTN"
+  },
+  {
+    "location": "Tri-City",
+    "iata_code": "TRI"
+  },
+  {
+    "location": "Trieste",
+    "iata_code": "TRS"
+  },
+  {
+    "location": "Tripoli",
+    "iata_code": "TIP"
+  },
+  {
+    "location": "Trivandrum",
+    "iata_code": "TRV"
+  },
+  {
+    "location": "Trombetas",
+    "iata_code": "TMT"
+  },
+  {
+    "location": "Tromso",
+    "iata_code": "TOS"
+  },
+  {
+    "location": "Trondheim",
+    "iata_code": "TRD"
+  },
+  {
+    "location": "Trujillo",
+    "iata_code": "TRU"
+  },
+  {
+    "location": "Truk",
+    "iata_code": "TKK"
+  },
+  {
+    "location": "Tucson",
+    "iata_code": "TUS"
+  },
+  {
+    "location": "Tucuman",
+    "iata_code": "TUC"
+  },
+  {
+    "location": "Tulsa",
+    "iata_code": "TUL"
+  },
+  {
+    "location": "Tuluksak",
+    "iata_code": "TLT"
+  },
+  {
+    "location": "Tumbes",
+    "iata_code": "TBP"
+  },
+  {
+    "location": "Tunis",
+    "iata_code": "TUN"
+  },
+  {
+    "location": "Tuntutuliak",
+    "iata_code": "WTL"
+  },
+  {
+    "location": "Tununak",
+    "iata_code": "TNK"
+  },
+  {
+    "location": "Turaif",
+    "iata_code": "TUI"
+  },
+  {
+    "location": "Turin",
+    "iata_code": "TRN"
+  },
+  {
+    "location": "Turku",
+    "iata_code": "TKU"
+  },
+  {
+    "location": "Turkmenabat",
+    "iata_code": "CRZ"
+  },
+  {
+    "location": "Tuscaloosa",
+    "iata_code": "TCL"
+  },
+  {
+    "location": "Twin Falls",
+    "iata_code": "TWF"
+  },
+  {
+    "location": "Tyler",
+    "iata_code": "TYR"
+  },
+  {
+    "location": "Tzaneen",
+    "iata_code": "TZN"
+  },
+  {
+    "location": "Ube",
+    "iata_code": "UBJ"
+  },
+  {
+    "location": "Ukiah",
+    "iata_code": "UKI"
+  },
+  {
+    "location": "Ulaanbaatar",
+    "iata_code": "ULN"
+  },
+  {
+    "location": "Ulan-Ude",
+    "iata_code": "UUD"
+  },
+  {
+    "location": "Umea",
+    "iata_code": "UME"
+  },
+  {
+    "location": "Unalakleet",
+    "iata_code": "UNK"
+  },
+  {
+    "location": "Unst",
+    "iata_code": "UNT"
+  },
+  {
+    "location": "Upington",
+    "iata_code": "UTN"
+  },
+  {
+    "location": "Urumqi",
+    "iata_code": "URC"
+  },
+  {
+    "location": "Ushuaia",
+    "iata_code": "USH"
+  },
+  {
+    "location": "Uzhgorod",
+    "iata_code": "UDJ"
+  },
+  {
+    "location": "Vaasa",
+    "iata_code": "VAA"
+  },
+  {
+    "location": "Val d'Or",
+    "iata_code": "YVO"
+  },
+  {
+    "location": "Valdez",
+    "iata_code": "VDZ"
+  },
+  {
+    "location": "Valdosta",
+    "iata_code": "VLD"
+  },
+  {
+    "location": "Valencia",
+    "iata_code": "VLC"
+  },
+  {
+    "location": "Valencia",
+    "iata_code": "VLN"
+  },
+  {
+    "location": "Valera",
+    "iata_code": "VLV"
+  },
+  {
+    "location": "Valledupar",
+    "iata_code": "VUP"
+  },
+  {
+    "location": "Valladolid",
+    "iata_code": "VLL"
+  },
+  {
+    "location": "Valparaiso",
+    "iata_code": "VAP"
+  },
+  {
+    "location": "Vancouver",
+    "iata_code": "YVR"
+  },
+  {
+    "location": "Vancouver, Harbour",
+    "iata_code": "CXH"
+  },
+  {
+    "location": "Varna",
+    "iata_code": "VAR"
+  },
+  {
+    "location": "Vasteras",
+    "iata_code": "VST"
+  },
+  {
+    "location": "Vaxjo",
+    "iata_code": "VXO"
+  },
+  {
+    "location": "Veracruz",
+    "iata_code": "VER"
+  },
+  {
+    "location": "Vernal",
+    "iata_code": "VEL"
+  },
+  {
+    "location": "Verona",
+    "iata_code": "VRN"
+  },
+  {
+    "location": "Venice",
+    "iata_code": "VCE"
+  },
+  {
+    "location": "Venice, Marco Polo",
+    "iata_code": "VCE"
+  },
+  {
+    "location": "Venice, Treviso",
+    "iata_code": "TSF"
+  },
+  {
+    "location": "Vestmannaeyjar",
+    "iata_code": "VEY"
+  },
+  {
+    "location": "Victoria",
+    "iata_code": "YYJ"
+  },
+  {
+    "location": "Victoria Falls",
+    "iata_code": "VFA"
+  },
+  {
+    "location": "Vienna",
+    "iata_code": "VIE"
+  },
+  {
+    "location": "Vientiane",
+    "iata_code": "VTE"
+  },
+  {
+    "location": "Vieques",
+    "iata_code": "VQS"
+  },
+  {
+    "location": "Villahermosa",
+    "iata_code": "VSA"
+  },
+  {
+    "location": "Vilnius",
+    "iata_code": "VNO"
+  },
+  {
+    "location": "Viña del Mar",
+    "iata_code": "VAP"
+  },
+  {
+    "location": "Vishakhapatnam",
+    "iata_code": "VTZ"
+  },
+  {
+    "location": "Vladivostok",
+    "iata_code": "VVO"
+  },
+  {
+    "location": "Volgograd",
+    "iata_code": "VOG"
+  },
+  {
+    "location": "Wabush",
+    "iata_code": "YWK"
+  },
+  {
+    "location": "Waco",
+    "iata_code": "ACT"
+  },
+  {
+    "location": "Wagga Wagga",
+    "iata_code": "WGA"
+  },
+  {
+    "location": "Waikiki",
+    "iata_code": "HNL"
+  },
+  {
+    "location": "Walla Walla",
+    "iata_code": "ALW"
+  },
+  {
+    "location": "Warsaw",
+    "iata_code": "WAW"
+  },
+  {
+    "location": "Washington",
+    "iata_code": "WAS"
+  },
+  {
+    "location": "Washington, Dulles",
+    "iata_code": "IAD"
+  },
+  {
+    "location": "Washington, National",
+    "iata_code": "DCA"
+  },
+  {
+    "location": "Waterloo",
+    "iata_code": "ALO"
+  },
+  {
+    "location": "Watson Lake",
+    "iata_code": "YOH"
+  },
+  {
+    "location": "Wau",
+    "iata_code": "WAU"
+  },
+  {
+    "location": "Wausau",
+    "iata_code": "AUW"
+  },
+  {
+    "location": "Wellington",
+    "iata_code": "WLG"
+  },
+  {
+    "location": "Wenchow",
+    "iata_code": "WNZ"
+  },
+  {
+    "location": "Wenatchee",
+    "iata_code": "EAT"
+  },
+  {
+    "location": "West Palm Beach",
+    "iata_code": "PBI"
+  },
+  {
+    "location": "Westchester",
+    "iata_code": "HPN"
+  },
+  {
+    "location": "Whangarei",
+    "iata_code": "WRE"
+  },
+  {
+    "location": "White River",
+    "iata_code": "LEB"
+  },
+  {
+    "location": "Whitehorse",
+    "iata_code": "YXY"
+  },
+  {
+    "location": "Wichita",
+    "iata_code": "ICT"
+  },
+  {
+    "location": "Wichita Falls",
+    "iata_code": "SPS"
+  },
+  {
+    "location": "Wick",
+    "iata_code": "WIC"
+  },
+  {
+    "location": "Wilhelmshaven",
+    "iata_code": "WVN"
+  },
+  {
+    "location": "Williamsburg",
+    "iata_code": "PHF"
+  },
+  {
+    "location": "Williston",
+    "iata_code": "ISN"
+  },
+  {
+    "location": "Wilmington",
+    "iata_code": "ILM"
+  },
+  {
+    "location": "Windhoek",
+    "iata_code": "WDH"
+  },
+  {
+    "location": "Windhoek, Eros",
+    "iata_code": "ERS"
+  },
+  {
+    "location": "Windsor",
+    "iata_code": "YQG"
+  },
+  {
+    "location": "Winnipeg",
+    "iata_code": "YWG"
+  },
+  {
+    "location": "Winston-Salem",
+    "iata_code": "INT"
+  },
+  {
+    "location": "Wonsan",
+    "iata_code": "WOS"
+  },
+  {
+    "location": "Wrangell",
+    "iata_code": "WRG"
+  },
+  {
+    "location": "Wuhan",
+    "iata_code": "WUH"
+  },
+  {
+    "location": "Wuxi",
+    "iata_code": "WUX"
+  },
+  {
+    "location": "Xian",
+    "iata_code": "XIY"
+  },
+  {
+    "location": "Xiamen",
+    "iata_code": "XMN"
+  },
+  {
+    "location": "Xining",
+    "iata_code": "XNN"
+  },
+  {
+    "location": "Yakima",
+    "iata_code": "YKM"
+  },
+  {
+    "location": "Yakutat",
+    "iata_code": "YAK"
+  },
+  {
+    "location": "Yaku",
+    "iata_code": "YAK"
+  },
+  {
+    "location": "Yamagata",
+    "iata_code": "GAJ"
+  },
+  {
+    "location": "Yanbu",
+    "iata_code": "YNB"
+  },
+  {
+    "location": "Yantai",
+    "iata_code": "YNT"
+  },
+  {
+    "location": "Yap Caroline Island",
+    "iata_code": "YAP"
+  },
+  {
+    "location": "Yazd",
+    "iata_code": "AZD"
+  },
+  {
+    "location": "Yellowknife",
+    "iata_code": "YZF"
+  },
+  {
+    "location": "Yichang",
+    "iata_code": "YIH"
+  },
+  {
+    "location": "Yinchuan",
+    "iata_code": "INC"
+  },
+  {
+    "location": "Yining",
+    "iata_code": "YIN"
+  },
+  {
+    "location": "Youngstown",
+    "iata_code": "YNG"
+  },
+  {
+    "location": "Yulin",
+    "iata_code": "UYN"
+  },
+  {
+    "location": "Yurimaguas",
+    "iata_code": "YMS"
+  },
+  {
+    "location": "Yuzhno-Sakhalinsk",
+    "iata_code": "UUS"
+  },
+  {
+    "location": "Zacatecas",
+    "iata_code": "ZCL"
+  },
+  {
+    "location": "Zadar",
+    "iata_code": "ZAD"
+  },
+  {
+    "location": "Zagreb",
+    "iata_code": "ZAG"
+  },
+  {
+    "location": "Zahedan",
+    "iata_code": "ZAH"
+  },
+  {
+    "location": "Zamboanga",
+    "iata_code": "ZAM"
+  },
+  {
+    "location": "Zante",
+    "iata_code": "ZTH"
+  },
+  {
+    "location": "Zanzibar",
+    "iata_code": "ZNZ"
+  },
+  {
+    "location": "Zaragoza",
+    "iata_code": "ZAZ"
+  },
+  {
+    "location": "Zhanjiang",
+    "iata_code": "ZHA"
+  },
+  {
+    "location": "Zhengzhou",
+    "iata_code": "CGO"
+  },
+  {
+    "location": "Zhoushan",
+    "iata_code": "HSN"
+  },
+  {
+    "location": "Zhuhai",
+    "iata_code": "ZUH"
+  },
+  {
+    "location": "Zihuatanejo",
+    "iata_code": "ZIH"
+  },
+  {
+    "location": "Zürich",
+    "iata_code": "ZRH"
+  }
+]
