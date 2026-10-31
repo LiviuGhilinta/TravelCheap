@@ -1,14 +1,97 @@
-Proiectul „ Travel Cheap” este o aplicatie desktop care ajuta utilizatorul sa caute si sa compare cele mai ieftine bilete si sa obtina prognoza meteo pentru perioada si destinatia aleasa.
-Limbaj de programare utilizat: Python3.13.
-Module utilizate: sys, PyQT5, json, requests, datetime. Dintre care PyQT5, requests trebuiesc instalate cu comanda pip din terminal.
-Editor: Visual Studio Code
-Cautarea datelor despre bilete si vreme sunt facute prin apelarea API -urilor: SerpAPI si VisualCrossingWeb. 
-Utilizare:
-1.	Deschide fisierul "Airport_Search.py" si da RUN
-2.	Apasa Butonul "Let’s start"
-3.	Selecteaza tipul de zbor (dus / dus-intors)
-4.	Selecteaza perioada dorita de calatorie folosind calendarul
-5.	Apasa pe butonul de "Search" pentru a obtine rezultatele
-6.	In urmatoarea pagina vei gasi cele mai ieftine bilete de la companiile low-cost, cu link direct catre pagina de cumparare a biletelor si detalii despre pretul biletelor si zbor
-7.	In partea de jos, este prezenta prognoza meteo pentru primele 3 zile din perioada selectata
-8.	Pentru a inchide aplicatia, foloseste butonul X prezent pe fiecare pagina
+# TravelCheap
+
+TravelCheap is a desktop application that helps users find and compare the cheapest flight tickets and see the weather forecast for their chosen destination and travel dates, all in one place.
+
+## Features
+
+- Search for **one-way** and **round-trip** flights
+- Airport autocomplete backed by a local **SQLite** database
+- Date selection with a calendar (past dates are corrected, and the return date can never be before the departure date)
+- Results for the cheapest low-cost flights, with price, duration, schedule, class and a **direct link to the airline's booking page**
+- **Weather forecast** for the first 3 days of the selected period
+- Responsive UI: flight and weather requests run **in parallel on a background thread**, so the window never freezes
+- Result caching: repeating the same search does not call the APIs again
+
+## Tech Stack
+
+| Area | Technology |
+|---|---|
+| Language | Python 3.13 |
+| GUI | PyQt5 |
+| Data | SQLite (airports), JSON |
+| APIs | [SerpAPI](https://serpapi.com/) (flights), [Visual Crossing Weather](https://www.visualcrossing.com/) (weather) |
+| Libraries | `requests`, `python-dotenv`, `datetime`, `sqlite3`, `concurrent.futures` |
+| Testing | pytest, pytest-qt |
+| CI/CD | Jenkins (Build → Test → Deploy) |
+| Containers | Docker |
+| Editor | Visual Studio Code |
+
+## Project Structure
+
+```
+TravelCheap/
+├── src/
+│   ├── Airport_Search.py   # main application and UI
+│   ├── Flights.py          # flight search (SerpAPI)
+│   ├── Weather.py          # weather forecast (Visual Crossing)
+│   └── IMG/                # images and backgrounds
+├── test/
+│   └── test_ui.py          # pytest UI and logic tests
+├── Airports.db             # SQLite database (city, IATA code)
+├── Dockerfile
+├── Jenkinsfile
+├── pytest.ini
+├── requirements.txt
+└── .env                    # API keys (not committed)
+```
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/TravelCheap.git
+cd TravelCheap
+```
+
+### 2. Create a virtual environment and install dependencies
+
+```bash
+python -m venv venv
+venv\Scripts\activate        # Windows
+# source venv/bin/activate   # Linux / macOS
+pip install -r requirements.txt
+```
+
+### 3. Configure API keys
+
+Create a `.env` file in the project root (this file is git-ignored):
+
+```env
+SERPAPI_KEY=your_serpapi_key
+WEATHER_KEY=your_visual_crossing_key
+```
+
+> Use the variable names expected in `Flights.py` and `Weather.py`.
+
+### 4. Run the application
+
+```bash
+python src/Airport_Search.py
+```
+
+## Usage
+
+1. Run `Airport_Search.py`.
+2. Click **Let's Start**.
+3. Select the flight type (one-way / round-trip).
+4. Choose the departure and arrival airports and the travel dates using the calendar.
+5. Set the number of adults and click **Search**.
+6. On the next page you will find the cheapest low-cost flights, with price and flight details and a direct link to the booking page.
+7. At the bottom, the weather forecast for the first 3 days of the selected period is displayed.
+8. Use the **X** button, available on every page, to close the application.
+
+
+👤 Author Liviu Ghilință
+
+GitHub: @LiviuGhilinta
