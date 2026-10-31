@@ -3,11 +3,12 @@ from PyQt5.QtWidgets import QApplication, QWidget, QLabel,QScrollArea,QComboBox,
 from PyQt5.QtCore import Qt,QPropertyAnimation,QEasingCurve,QSize,QDate,QUrl
 from PyQt5.QtGui import QFont,QPixmap,QDesktopServices
 from PyQt5.QtNetwork import QNetworkAccessManager, QNetworkRequest
-import json
 import Flights
 import Weather
+import sqlite3
+import os
 
-
+DB_PATH = "c:/Users/akuv2/Desktop/TravelCheap/Airports.db"
 
 class FirstScreen(QWidget):
     def __init__(self):
@@ -50,9 +51,7 @@ and every journey costs less.""", self.content_widget)
         self.selected_date = None
         self.selected_date_s = None
         self.search = QPushButton("Search",self.content_widget)
-        with open("Aeroporturi.json", "r") as f:
-             date_aer = json.load(f)
-        self.dictionary = {item["location"]: item["iata_code"] for item in date_aer}
+        self.dictionary = self.load_airpots()
         self.calendar.hide()
         self.search_sosire.setDisabled(True) 
         self.calendar_p.hide()
@@ -69,7 +68,15 @@ and every journey costs less.""", self.content_widget)
         self.label5 = QLabel(self.content_widget)
         self.net_manager = QNetworkAccessManager(self)        
         self.initUI()
-        
+
+
+    def load_airpots(self):
+        with sqlite3.connect(DB_PATH) as conn:
+            print(conn.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall())
+            cursor = conn.cursor()
+            cursor.execute("SELECT city, iata_code FROM airports;")
+            return(dict(cursor.fetchall()))
+
     def get_calendar_date_p(self):
         self.selected_date = self.calendar_p.selectedDate().toString("yyyy-MM-dd")
         print(f"Plecare : {self.selected_date}")

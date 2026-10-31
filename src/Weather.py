@@ -1,5 +1,8 @@
 import requests
 import datetime
+import os
+from dotenv import load_dotenv
+
 def convert(date_time):
     format = '%Y-%m-%d'
     datetime_str = datetime.datetime.strptime(date_time,format)
@@ -9,7 +12,8 @@ def Find_the_weather(city,date1,date2):
         return int((f - 32) * 5 / 9)
     if date2 is None:
         date2 = (convert(date1) + datetime.timedelta(days=3)).strftime('%Y-%m-%d')
-    api_key = "DSQJ7S3LASF3J7JB5BKWX6EBJ"
+    load_dotenv()
+    api_key = os.getenv("WeatherApi")
 
     url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{city}/{date1}/{date2}?key={api_key}"
 

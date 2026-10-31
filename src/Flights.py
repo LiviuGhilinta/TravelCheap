@@ -1,10 +1,11 @@
 import requests
 import json
 import os
-import Airport_Search
+from dotenv import load_dotenv
 
 def search_flights(flight_type, departure, arrival, outbound_date, return_date, people):
-    Api_Key = "d593d31fb0db18d7f6f9a4234231b8174a7d30029b6dc620553fa186e3bb5795"
+    load_dotenv()
+    Api_Key = os.getenv("SerpAPI")
 
     param = {
         "engine": "google_flights",
