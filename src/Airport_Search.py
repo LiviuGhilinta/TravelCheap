@@ -1,6 +1,7 @@
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel,QScrollArea,QComboBox,QCalendarWidget,QCompleter,QPushButton,QVBoxLayout,QLineEdit,QHBoxLayout
-from PyQt5.QtCore import Qt,QPropertyAnimation,QEasingCurve,QSize,QDate,QUrl
+from PyQt5.QtCore import Qt,QThread,QPropertyAnimation,QEasingCurve,QSize,QDate,QUrl,pyqtSignal
 from PyQt5.QtGui import QFont,QPixmap,QDesktopServices
 from PyQt5.QtNetwork import QNetworkAccessManager, QNetworkRequest
 import Flights
@@ -10,7 +11,30 @@ import os
 
 DB_PATH = "c:/Users/akuv2/Desktop/TravelCheap/Airports.db"
 
+class SearchWorker(QThread):
+    done = pyqtSignal(list,list)
+    failed = pyqtSignal(str)
+
+    def __init__(self, flight, weather):
+        super().__init__()
+        self.flight = flight
+        self.weather = weather
+
+    def run(self):
+        try:
+            with ThreadPoolExecutor(max_workers=2) as ex:
+                f = ex.submit(Flights.search_flights, *self.flight)
+                w = ex.submit(Weather.Find_the_weather, *self.weather)
+                flights = f.result()
+                theWeather = w.result()
+            self.done.emit(flights,theWeather)
+        except Exception as e:
+            self.failed.emit(str(e))
+
+
+
 class FirstScreen(QWidget):
+   
     def __init__(self):
         super().__init__()
         self.scroll = QScrollArea()
@@ -67,6 +91,9 @@ and every journey costs less.""", self.content_widget)
         self.people_value = QLabel(str(self.people), self.content_widget)
         self.label5 = QLabel(self.content_widget)
         self.net_manager = QNetworkAccessManager(self)        
+        self.worker =None
+        self.cache = {}
+        self.last_key = None
         self.initUI()
 
 
@@ -503,6 +530,7 @@ and every journey costs less.""", self.content_widget)
         self.closebutton.raise_()
         self.closebutton1.raise_()
         self.closebutton2.raise_()  
+
     def select_flight(self, zbor):
         airline = zbor.get("airline", "").lower()
         origin = self.aer_plecare
@@ -536,25 +564,48 @@ and every journey costs less.""", self.content_widget)
         if self.people > 1:   
             self.people -= 1
             self.people_value.setText(str(self.people))
+
     def log(self):
         if not self.aer_plecare or not self.aer_sosire or not self.selected_date:
             print("Completează toate câmpurile!")
             return
-            
-        rezultat_zboruri = Flights.search_flights(
-            self.flight_type,
-            self.aer_plecare,
-            self.aer_sosire,
-            self.selected_date,
-            self.selected_date_s,
-            self.people
+        if self.worker is not None and self.worker.isRunning():
+            return
+
+        key = (self.flight_type, self.aer_plecare, self.aer_sosire,
+            self.selected_date, self.selected_date_s, self.people)
+
+        # cache: aceeași căutare nu mai lovește API-urile
+        if key in self.cache:
+            self.show_results(*self.cache[key])
+            return
+
+        self.last_key = key
+        self.search.setDisabled(True)
+        self.search.setText("Searching...")
+
+        # valorile din UI se citesc AICI (thread principal) și se trimit ca argumente
+        self.worker = SearchWorker(
+            key,
+            (self.search_sosire.text(), self.selected_date, self.selected_date_s),
         )
-        
-        rezultat_vreme = Weather.Find_the_weather(
-            self.search_sosire.text(),
-            self.selected_date,
-            self.selected_date_s
-        )
+        self.worker.done.connect(self.on_search_done)
+        self.worker.failed.connect(self.search_failed)
+        self.worker.start()
+
+    def on_search_done(self, rezultat_zboruri, rezultat_vreme):
+        if self.last_key is not None:
+            self.cache[self.last_key] = (rezultat_zboruri, rezultat_vreme)
+        self.show_results(rezultat_zboruri, rezultat_vreme)
+
+    def search_failed(self, msg):
+        print(f"Eroare la căutare: {msg}")
+        self.search.setDisabled(False)
+        self.search.setText("Search")
+
+    def show_results(self, rezultat_zboruri, rezultat_vreme):
+        self.search.setDisabled(False)
+        self.search.setText("Search")
 
         for i, box in enumerate(self.boxes):
             for child in box.children():
@@ -588,7 +639,8 @@ and every journey costs less.""", self.content_widget)
                     QPushButton:hover { background-color: #d32f2f; }
                 """)
                 select_btn.setGeometry(10, box.height() - 45, box.width() - 20, 35)
-                if "wizz" in zbor.get("airline",'').lower() or "ryanair" in zbor.get('airline','').lower():
+                airline = zbor.get("airline", "").lower()
+                if "wizz" in airline or "ryanair" in airline:
                     select_btn.clicked.connect(lambda checked, z=zbor: self.select_flight(z))
                 else:
                     select_btn.setText("Unavailable")
@@ -608,41 +660,44 @@ and every journey costs less.""", self.content_widget)
 
             if i < len(rezultat_vreme):
                 zi = rezultat_vreme[i]
+                desc = zi['desc'].lower()
+
                 image_label = QLabel(box)
-                image_label.setGeometry(70, 0, 102, 133)  
+                image_label.setGeometry(70, 0, 102, 133)
                 image_label.setStyleSheet("border: none;")
-                pixmap = None
-                if "rain" in zi['desc'].lower():
+
+                if "rain" in desc:
                     pixmap = QPixmap("IMG/rain.png")
-                elif "overcast" in zi['desc'].lower():
+                elif "overcast" in desc:
                     pixmap = QPixmap("IMG/overcast.png")
-                elif "clear" in zi['desc'].lower():
+                elif "clear" in desc:
                     pixmap = QPixmap("IMG/clear.png")
-                elif "cloudy" in zi['desc'].lower():
+                elif "cloudy" in desc:
                     pixmap = QPixmap("IMG/cloudy.png")
                 else:
                     pixmap = QPixmap("IMG/overcast.png")
 
-                if pixmap:
-                    pixmap = pixmap.scaled(102, 153, Qt.KeepAspectRatioByExpanding, Qt.SmoothTransformation)
-                    image_label.setPixmap(pixmap)
-                    image_label.setScaledContents(True)
-                    image_label.show()
+                pixmap = pixmap.scaled(102, 153, Qt.KeepAspectRatioByExpanding, Qt.SmoothTransformation)
+                image_label.setPixmap(pixmap)
+                image_label.setScaledContents(True)
+                image_label.show()
+
                 label_temp = QLabel(f"{zi['medie']}°C", box)
                 label_temp.setGeometry(10, 110, box.width()-20, 30)
                 label_temp.setStyleSheet("color: white; font-size: 20px; font-weight: bold;")
                 label_temp.show()
+
                 label_desc = QLabel(zi['desc'], box)
                 label_desc.setGeometry(10, 150, box.width()-20, 30)
                 label_desc.setStyleSheet("color: white; font-size: 16px;")
                 label_desc.show()
-
             else:
                 label_no_data = QLabel("No Data", box)
                 label_no_data.setGeometry(0, box.height()//2 - 20, box.width(), 40)
                 label_no_data.setAlignment(Qt.AlignCenter)
                 label_no_data.setStyleSheet("color: white; font-size: 16px;")
                 label_no_data.show()
+
         self.animate_scroll_to_results()
     def calendar_control(self):
         self.calendar.show()
@@ -681,6 +736,12 @@ and every journey costs less.""", self.content_widget)
                     self.calendar_p.hide()
 
         return super().eventFilter(obj, event)
+
+    def closeEvent(self,event):
+        if self.worker is not None and self.worker.isRunning():
+            self.worker.wait(3000)
+        super().closeEvent(event)
+
 
 if __name__ =="__main__":
     app = QApplication(sys.argv)
