@@ -9,7 +9,9 @@ import Weather
 import sqlite3
 import os
 
-DB_PATH = "c:/Users/akuv2/Desktop/TravelCheap/Airports.db"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_PATH = os.path.join(BASE_DIR, "..", "Airports.db")
+
 
 class SearchWorker(QThread):
     done = pyqtSignal(list,list)
@@ -40,53 +42,53 @@ class FirstScreen(QWidget):
         self.scroll = QScrollArea()
         self.content_widget = QWidget() 
         self.data_input_section = QWidget(self.content_widget)
-        self.closebutton = QPushButton("X", self.content_widget)
-        self.closebutton1 = QPushButton("X", self.content_widget)
-        self.closebutton2 = QPushButton("X", self.content_widget)
+        self.close_button = QPushButton("X", self.content_widget)
+        self.close_button1 = QPushButton("X", self.content_widget)
+        self.close_button2 = QPushButton("X", self.content_widget)
         self.logo = QPixmap("IMG\\logo.png")
         self.label1 = QLabel(self.content_widget)
         self.label2 = QLabel("TravelCheap",self.content_widget)
         self.label3 = QLabel("""With Travel Cheap, 
 every destination feels closer 
 and every journey costs less.""", self.content_widget)
-        self.Interface = QLabel(self.content_widget)
-        self.Interface2 = QLabel(self.content_widget) 
+        self.interface = QLabel(self.content_widget)
+        self.second_interface = QLabel(self.content_widget) 
         self.label4 = QLabel(self.content_widget)
         self.label6 = QLabel(self.content_widget)
-        self.LetSStartbutton = QPushButton("Let's Start", self.content_widget)
+        self.start_button = QPushButton("Let's Start", self.content_widget)
         self.trip_type_combobox = QComboBox(self.content_widget)
         self.trip_type_combobox.addItem("Type of flight")
         self.trip_type_combobox.addItem("One-way trip")
         self.trip_type_combobox.addItem("Round-trip")
-        self.LetSStartbutton.clicked.connect(self.animate_scroll_to_data_input)
-        self.closebutton.clicked.connect(self.close)
-        self.closebutton1.clicked.connect(self.close)
-        self.closebutton2.clicked.connect(self.close)
+        self.start_button.clicked.connect(self.animate_scroll_to_data_input)
+        self.close_button.clicked.connect(self.close)
+        self.close_button1.clicked.connect(self.close)
+        self.close_button2.clicked.connect(self.close)
         self.trip_type_combobox.currentTextChanged.connect(self.update_trip_type)
-        self.calendar = QCalendarWidget(self.content_widget)
-        self.calendar_p= QCalendarWidget(self.content_widget)
-        self.search_plecare = QLineEdit(self.content_widget)
-        self.search_sosire = QLineEdit(self.content_widget)
-        self.Departure_calendar = QPushButton("Departure Date",self.content_widget)
-        self.Arival_calendar = QPushButton("Return Date",self.content_widget)
+        self.arrival_calendar = QCalendarWidget(self.content_widget)
+        self.departure_calendar= QCalendarWidget(self.content_widget)
+        self.departure_search = QLineEdit(self.content_widget)
+        self.arrival_search = QLineEdit(self.content_widget)
+        self.departure_calendar_button = QPushButton("Departure Date",self.content_widget)
+        self.arrival_calendar_button = QPushButton("Return Date",self.content_widget)
         self.flight_type = 0
-        self.aer_plecare = None
-        self.aer_sosire = None
-        self.selected_date = None
-        self.selected_date_s = None
+        self.departure_airport = None
+        self.arrival_airport = None
+        self.selected_date_departure = None
+        self.selected_date_arrival = None
         self.search = QPushButton("Search",self.content_widget)
         self.dictionary = self.load_airpots()
-        self.calendar.hide()
-        self.search_sosire.setDisabled(True) 
-        self.calendar_p.hide()
-        self.search_plecare.setDisabled(True) 
-        self.Departure_calendar.setDisabled(True)
-        self.Arival_calendar.setDisabled(True)
+        self.arrival_calendar.hide()
+        self.arrival_search.setDisabled(True) 
+        self.departure_calendar.hide()
+        self.departure_search.setDisabled(True) 
+        self.departure_calendar_button.setDisabled(True)
+        self.arrival_calendar_button.setDisabled(True)
         QApplication.instance().installEventFilter(self)
         self.people_box = QWidget(self.content_widget)
         self.people_label = QLabel("Adulți ", self.people_box)
-        self.btn_plus = QPushButton("+",self.content_widget)
-        self.btn_minus =QPushButton("-",self.content_widget)
+        self.plus_button = QPushButton("+",self.content_widget)
+        self.minus_button =QPushButton("-",self.content_widget)
         self.people = 1
         self.people_value = QLabel(str(self.people), self.content_widget)
         self.label5 = QLabel(self.content_widget)
@@ -99,76 +101,89 @@ and every journey costs less.""", self.content_widget)
 
     def load_airpots(self):
         with sqlite3.connect(DB_PATH) as conn:
-            print(conn.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall())
             cursor = conn.cursor()
             cursor.execute("SELECT city, iata_code FROM airports;")
             return(dict(cursor.fetchall()))
 
-    def get_calendar_date_p(self):
-        self.selected_date = self.calendar_p.selectedDate().toString("yyyy-MM-dd")
-        print(f"Plecare : {self.selected_date}")
-        self.Departure_calendar.setText(self.selected_date)
-    
-    def get_calendar_date_s(self):
-        self.selected_date_s = self.calendar.selectedDate().toString("yyyy-MM-dd")
+    def get_calendar_date_departure(self):
+        self.selected_date_departure = self.departure_calendar.selectedDate().toString("yyyy-MM-dd")
         self.verify_dates()
-        print(f"Sosire : {self.selected_date_s}")
-        self.Arival_calendar.setText(self.selected_date_s)
+        print(f"Plecare : {self.selected_date_departure}")
+        self.departure_calendar_button.setText(self.selected_date_departure)
+    
+    def get_calendar_date_arrival(self):
+        self.selected_date_arrival = self.arrival_calendar.selectedDate().toString("yyyy-MM-dd")
+        self.verify_dates()
+        print(f"Sosire : {self.selected_date_arrival}")
+        self.arrival_calendar_button.setText(self.selected_date_arrival)
 
     
     def verify_dates(self):
-        if not self.selected_date or not self.selected_date_s:
+        if not self.selected_date_departure:
             return
-        dep = QDate.fromString(self.selected_date,'yyyy-MM-dd')
-        ret = QDate.fromString(self.selected_date_s,'yyyy-MM-dd') 
-        if dep>ret:
-            self.calendar.setSelectedDate(dep)
-            self.selected_date =self.selected_date
-            self.Arival_calendar.setText(self.selected_date)     
+        dep = QDate.fromString(self.selected_date_departure,'yyyy-MM-dd')
+        ret = QDate.fromString(self.selected_date_arrival,'yyyy-MM-dd') 
+        today = QDate.currentDate()
+        
+        if dep<today:
+            dep = today
+            self.departure_calendar.setSelectedDate(today)
+            self.selected_date_departure = today.toString('yyyy-MM-dd')
+            self.departure_calendar_button.setText(today.toString('yyyy-MM-dd'))
+        
+        if self.flight_type != 1 or not self.selected_date_arrival:
+            return
+
+        ret = QDate.fromString(self.selected_date_arrival, 'yyyy-MM-dd')
+        if ret < dep:
+            self.arrival_calendar.setSelectedDate(dep)
+            self.selected_date_arrival = dep.toString('yyyy-MM-dd')
+            self.arrival_calendar_button.setText(self.selected_date_arrival)
 
     def update_result(self, text):
         iata = self.dictionary.get(text)
         
-        if iata and self.aer_plecare is None:
-            self.aer_plecare = iata  
-            print(f"Plecare selectată: {text} ({self.aer_plecare})")
+        if iata and self.departure_airport is None:
+            self.departure_airport = iata  
+            print(f"Plecare selectată: {text} ({self.departure_airport})")
             
-        elif iata and self.aer_plecare is not None:
-            self.aer_sosire = iata
-            print(f"Sosire selectată: {text} ({self.aer_sosire})")
+        elif iata and self.departure_airport is not None:
+            self.arrival_airport = iata
+            print(f"Sosire selectată: {text} ({self.arrival_airport})")
             self.text = text
             
         else:
             
-            self.aer_plecare = None
+            self.departure_airport = None
     def update_trip_type(self, text_value):
         print(f"Selectie :{text_value}")
         if text_value == "One-way trip":
             self.flight_type = 2
-            self.Arival_calendar.setDisabled(True)
-            self.search_sosire.setDisabled(False)
-            self.Departure_calendar.setDisabled(False)
-            self.search_plecare.setDisabled(False)
-            self.selected_date_s = None
-            self.Arival_calendar.setText("Unavailable") 
+            self.arrival_calendar_button.setDisabled(True)
+            self.arrival_search.setDisabled(False)
+            self.departure_calendar_button.setDisabled(False)
+            self.departure_search.setDisabled(False)
+            self.selected_date_arrival = None
+            self.arrival_calendar_button.setText("Unavailable") 
         elif text_value == "Round-trip": 
             self.flight_type = 1
-            self.Arival_calendar.setDisabled(False)
-            self.search_sosire.setDisabled(False)  
-            self.Departure_calendar.setDisabled(False)
-            self.search_plecare.setDisabled(False)
-            self.Arival_calendar.setText("Return")
-            self.Departure_calendar.setText("Departure") 
+            self.arrival_calendar_button.setDisabled(False)
+            self.arrival_search.setDisabled(False)  
+            self.departure_calendar_button.setDisabled(False)
+            self.departure_search.setDisabled(False)
+            self.arrival_calendar_button.setText("Return")
+            self.departure_calendar_button.setText("Departure") 
         else:
             self.flight_type = 0
-            self.Arival_calendar.setDisabled(True)
-            self.search_sosire.setDisabled(True) 
-            self.Departure_calendar.setDisabled(True)
-            self.search_plecare.setDisabled(True)
-            self.selected_date = None
-            self.selected_date_s = None
-            self.Arival_calendar.setText("Unavailable")
-            self.Departure_calendar.setText("Unavailable")
+            self.arrival_calendar_button.setDisabled(True)
+            self.arrival_search.setDisabled(True) 
+            self.departure_calendar_button.setDisabled(True)
+            self.departure_search.setDisabled(True)
+            self.selected_date_departure = None
+            self.selected_date_arrival = None
+            self.arrival_calendar_button.setText("Unavailable")
+            self.departure_calendar_button.setText("Unavailable")
+
     def load_logo(self, url, parent):
         if not url:
             return
@@ -242,21 +257,21 @@ and every journey costs less.""", self.content_widget)
         self.label1.raise_()
         self.label2.raise_()
         self.label4.raise_()
-        self.LetSStartbutton.setGeometry(700, 870, 500, 50)
-        self.LetSStartbutton.setStyleSheet("border: 2px solid; border-radius : 15px; background-color : white; font-size: 18px; font-weight: italic;")
+        self.start_button.setGeometry(700, 870, 500, 50)
+        self.start_button.setStyleSheet("border: 2px solid; border-radius : 15px; background-color : white; font-size: 18px; font-weight: italic;")
         
         
         #Second Page
-        self.closebutton.setGeometry(1850, 20, 30, 30)
-        self.closebutton1.setGeometry(1850, 1100, 30, 30)
-        self.closebutton2.setGeometry(1850, 2180, 30, 30)
-        self.closebutton.setStyleSheet("background-color: red; font-style : bold; color : white;")
-        self.closebutton1.setStyleSheet("background-color: red; font-style : bold; color : white;")
-        self.closebutton2.setStyleSheet("background-color: red; font-style : bold; color : white;")
+        self.close_button.setGeometry(1850, 20, 30, 30)
+        self.close_button1.setGeometry(1850, 1100, 30, 30)
+        self.close_button2.setGeometry(1850, 2180, 30, 30)
+        self.close_button.setStyleSheet("background-color: red; font-style : bold; color : white;")
+        self.close_button1.setStyleSheet("background-color: red; font-style : bold; color : white;")
+        self.close_button2.setStyleSheet("background-color: red; font-style : bold; color : white;")
         self.data_input_section.setGeometry(0, 1080, 1920, 1080)
         self.data_input_section.setStyleSheet("border-image: url(IMG/Background-Image1.jpg) 0 0 0 0 stretch; ")
-        self.Interface.setGeometry(300,1280,1300,700)
-        self.Interface.setStyleSheet("background-color: white;")
+        self.interface.setGeometry(300,1280,1300,700)
+        self.interface.setStyleSheet("background-color: white;")
         number_of_pages = 1080 *3
         self.content_widget.setMinimumSize(1920, number_of_pages)
         
@@ -272,16 +287,16 @@ and every journey costs less.""", self.content_widget)
         """)
 
         #1st Calendar
-        self.Departure_calendar.setGeometry(750,1380,200,70)
-        self.Arival_calendar.setGeometry(950,1380,200,70)
-        self.Departure_calendar.setStyleSheet("background-color: transparent; border: 2px solid #e3dcdc; border-radius: 5px;")
-        self.Arival_calendar.setStyleSheet("background-color: transparent; border: 2px solid #e3dcdc; border-radius: 5px;")
-        self.Departure_calendar.clicked.connect(self.calendar_p_control)
-        self.Arival_calendar.clicked.connect(self.calendar_control)
-        self.calendar_p.setGeometry(650, 1450, 400, 320)
-        self.calendar_p.setGridVisible(False)
+        self.departure_calendar_button.setGeometry(750,1380,200,70)
+        self.arrival_calendar_button.setGeometry(950,1380,200,70)
+        self.departure_calendar_button.setStyleSheet("background-color: transparent; border: 2px solid #e3dcdc; border-radius: 5px;")
+        self.arrival_calendar_button.setStyleSheet("background-color: transparent; border: 2px solid #e3dcdc; border-radius: 5px;")
+        self.departure_calendar_button.clicked.connect(self.calendar_p_control)
+        self.arrival_calendar_button.clicked.connect(self.calendar_control)
+        self.departure_calendar.setGeometry(650, 1450, 400, 320)
+        self.departure_calendar.setGridVisible(False)
 
-        self.calendar_p.setStyleSheet("""
+        self.departure_calendar.setStyleSheet("""
             QCalendarWidget {
                 background-color: #ffffff;
                 border-radius: 15px;
@@ -328,13 +343,13 @@ and every journey costs less.""", self.content_widget)
                 border-radius: 8px;
             }
             """)
-        self.calendar_p.selectionChanged.connect(self.get_calendar_date_p)
+        self.departure_calendar.selectionChanged.connect(self.get_calendar_date_departure)
         
         #2nd Calendar
-        self.calendar.setGeometry(850, 1450, 400, 320)
-        self.calendar.setGridVisible(False)
+        self.arrival_calendar.setGeometry(850, 1450, 400, 320)
+        self.arrival_calendar.setGridVisible(False)
 
-        self.calendar.setStyleSheet("""
+        self.arrival_calendar.setStyleSheet("""
             QCalendarWidget {
                 background-color: #ffffff;
                 border : 2px solid;
@@ -381,25 +396,25 @@ and every journey costs less.""", self.content_widget)
                 border-radius: 8px;
             }
             """)
-        self.calendar.selectionChanged.connect(self.get_calendar_date_s)
+        self.arrival_calendar.selectionChanged.connect(self.get_calendar_date_arrival)
 
         # seach bar departure 
-        self.search_plecare.setPlaceholderText("Departure")
-        self.search_plecare.setGeometry(350, 1380, 200, 70)
+        self.departure_search.setPlaceholderText("Departure")
+        self.departure_search.setGeometry(350, 1380, 200, 70)
         self.completer_plecare = QCompleter(self.dictionary.keys())
         self.completer_plecare.setCaseSensitivity(False)
-        self.search_plecare.setCompleter(self.completer_plecare)
-        self.search_plecare.setStyleSheet("background-color: transparent; border: 2px solid #e3dcdc; border-radius: 5px;")
+        self.departure_search.setCompleter(self.completer_plecare)
+        self.departure_search.setStyleSheet("background-color: transparent; border: 2px solid #e3dcdc; border-radius: 5px; ")
         self.completer_plecare.activated.connect(self.update_result)
 
         # search bar arrival
-        self.search_sosire.setPlaceholderText("Arrival")
-        self.search_sosire.setGeometry(550, 1380, 200, 70) 
+        self.arrival_search.setPlaceholderText("Arrival")
+        self.arrival_search.setGeometry(550, 1380, 200, 70) 
         self.completer_sosire = QCompleter(self.dictionary.keys())
         self.completer_sosire.setCaseSensitivity(False)
-        self.search_sosire.setCompleter(self.completer_sosire)
+        self.arrival_search.setCompleter(self.completer_sosire)
         self.completer_sosire.activated.connect(self.update_result)
-        self.search_sosire.setStyleSheet("background-color: transparent; border: 2px solid #e3dcdc; border-radius: 5px;")
+        self.arrival_search.setStyleSheet("background-color: transparent; border: 2px solid #e3dcdc; border-radius: 5px;")
         #search button
         self.search.setGeometry(1350,1380,200,70)
         self.search.setStyleSheet("background-color: Red; border: 2px solid #e3dcdc ; border-radius: 5px; font-family: Calibri;")
@@ -429,9 +444,9 @@ and every journey costs less.""", self.content_widget)
         """)
 
         #Minus button
-        self.btn_minus.setParent(self.people_box)
-        self.btn_minus.setGeometry(70, 12, 40, 40)
-        self.btn_minus.setStyleSheet("""
+        self.minus_button.setParent(self.people_box)
+        self.minus_button.setGeometry(70, 12, 40, 40)
+        self.minus_button.setStyleSheet("""
             QPushButton {
                 background-color: white;
                 border-radius: 20px;
@@ -457,9 +472,9 @@ and every journey costs less.""", self.content_widget)
         """)
 
         #Plus button
-        self.btn_plus.setParent(self.people_box)
-        self.btn_plus.setGeometry(150, 12, 40, 40)
-        self.btn_plus.setStyleSheet("""
+        self.plus_button.setParent(self.people_box)
+        self.plus_button.setGeometry(150, 12, 40, 40)
+        self.plus_button.setStyleSheet("""
             QPushButton {
                 background-color: white;
                 color: black;
@@ -471,8 +486,8 @@ and every journey costs less.""", self.content_widget)
             }
         """)
 
-        self.btn_plus.clicked.connect(self.increase_people)
-        self.btn_minus.clicked.connect(self.decrease_people)
+        self.plus_button.clicked.connect(self.increase_people)
+        self.minus_button.clicked.connect(self.decrease_people)
 
         self.page3_widget = QLabel(self.content_widget)
         self.page3_widget.setGeometry(0, 2160, 1920, 1080)
@@ -527,16 +542,16 @@ and every journey costs less.""", self.content_widget)
             bar.show()
             self.boxes2.append(box)    
 
-        self.closebutton.raise_()
-        self.closebutton1.raise_()
-        self.closebutton2.raise_()  
+        self.close_button.raise_()
+        self.close_button1.raise_()
+        self.close_button2.raise_()  
 
     def select_flight(self, zbor):
         airline = zbor.get("airline", "").lower()
-        origin = self.aer_plecare
-        destination = self.aer_sosire
-        departure = self.selected_date
-        return_date = self.selected_date_s if self.flight_type == 1 else None
+        origin = self.departure_airport
+        destination = self.arrival_airport
+        departure = self.selected_date_departure
+        return_date = self.selected_date_arrival if self.flight_type == 1 else None
         adults = self.people
         url = ""
         if "wizz" in airline:
@@ -566,14 +581,14 @@ and every journey costs less.""", self.content_widget)
             self.people_value.setText(str(self.people))
 
     def log(self):
-        if not self.aer_plecare or not self.aer_sosire or not self.selected_date:
+        if not self.departure_airport or not self.arrival_airport or not self.selected_date_departure:
             print("Completează toate câmpurile!")
             return
         if self.worker is not None and self.worker.isRunning():
             return
 
-        key = (self.flight_type, self.aer_plecare, self.aer_sosire,
-            self.selected_date, self.selected_date_s, self.people)
+        key = (self.flight_type, self.departure_airport, self.arrival_airport,
+            self.selected_date_departure, self.selected_date_arrival, self.people)
 
         # cache: aceeași căutare nu mai lovește API-urile
         if key in self.cache:
@@ -587,7 +602,7 @@ and every journey costs less.""", self.content_widget)
         # valorile din UI se citesc AICI (thread principal) și se trimit ca argumente
         self.worker = SearchWorker(
             key,
-            (self.search_sosire.text(), self.selected_date, self.selected_date_s),
+            (self.arrival_search.text(), self.selected_date_departure, self.selected_date_arrival),
         )
         self.worker.done.connect(self.on_search_done)
         self.worker.failed.connect(self.search_failed)
@@ -700,12 +715,12 @@ and every journey costs less.""", self.content_widget)
 
         self.animate_scroll_to_results()
     def calendar_control(self):
-        self.calendar.show()
-        self.calendar_p.hide()
+        self.arrival_calendar.show()
+        self.departure_calendar.hide()
 
     def calendar_p_control(self):
-        self.calendar_p.show()
-        self.calendar.hide()
+        self.departure_calendar.show()
+        self.arrival_calendar.hide()
 
     def animate_scroll_to_data_input(self):
         target_y = 1080 
@@ -727,13 +742,13 @@ and every journey costs less.""", self.content_widget)
         if event.type() == event.MouseButtonPress:
             clicked_widget = QApplication.widgetAt(event.globalPos())
 
-            if self.calendar.isVisible():
-                if not (clicked_widget == self.calendar or self.calendar.isAncestorOf(clicked_widget)):
-                    self.calendar.hide()
+            if self.arrival_calendar.isVisible():
+                if not (clicked_widget == self.arrival_calendar or self.arrival_calendar.isAncestorOf(clicked_widget)):
+                    self.arrival_calendar.hide()
 
-            if self.calendar_p.isVisible():
-                if not (clicked_widget == self.calendar_p or self.calendar_p.isAncestorOf(clicked_widget)):
-                    self.calendar_p.hide()
+            if self.departure_calendar.isVisible():
+                if not (clicked_widget == self.departure_calendar or self.departure_calendar.isAncestorOf(clicked_widget)):
+                    self.departure_calendar.hide()
 
         return super().eventFilter(obj, event)
 

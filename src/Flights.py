@@ -1,5 +1,4 @@
 import requests
-import json
 import os
 from dotenv import load_dotenv
 
@@ -20,11 +19,11 @@ def search_flights(flight_type, departure, arrival, outbound_date, return_date, 
     }
 
     resp = requests.get("https://serpapi.com/search", params=param)
-    rezultat = resp.json()
+    result = resp.json()
     
     flights_list = []
     
-    for i in rezultat.get("best_flights", [])[:3]:
+    for i in result.get("best_flights", [])[:3]:
         flight_info = i["flights"][0]
         flight_dict = {
             "airline": flight_info.get("airline", ""),
